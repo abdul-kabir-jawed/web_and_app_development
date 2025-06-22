@@ -1,4 +1,4 @@
-# Stairs to Success - Assignment 7
+# Stairs to Success - Assignment 6
 ## Periodic Table and Chess Board using HTML Tables
 
 ### Assignment Overview
@@ -18,7 +18,7 @@ This is the seventh assignment in the "Stairs to Success" series. The objective 
 
 ### File Structure
 ```
-assignment-7/
+assignment-6/
 ├── README.md
 ├── index.html (main file containing both periodic table and chess board)
 └── (no CSS files as per requirements)
