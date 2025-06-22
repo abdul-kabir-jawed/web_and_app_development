@@ -1,0 +1,614 @@
+// FOLDER STRUCTURE:
+// html-assignment/
+// ├── personal-portfolio/
+// │   └── index.html
+// ├── recipe-collection/
+// │   └── recipes.html
+// ├── school-project/
+// │   └── science.html
+// ├── hobby-blog/
+// │   └── blog.html
+// ├── contact-information/
+// │   └── contact.html
+// └── README.md
+
+// ===========================================
+// FILE 1: personal-portfolio/index.html
+// ===========================================
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Portfolio - John Doe</title>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Personal Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Hello! I'm <strong>John Doe</strong>, a passionate web developer with a love for creating amazing digital experiences.</p>
+            <p>I have been coding for <em>3 years</em> and enjoy working with modern web technologies.</p>
+            
+            <h3>My Journey</h3>
+            <p>Started as a <small>hobby programmer</small> and now pursuing it professionally.</p>
+            <blockquote>
+                "The best way to predict the future is to create it." - Peter Drucker
+            </blockquote>
+        </section>
+
+        <section id="skills">
+            <h2>Technical Skills</h2>
+            <ol>
+                <li>HTML5 & Semantic Markup</li>
+                <li>CSS3 & Responsive Design</li>
+                <li>JavaScript & DOM Manipulation</li>
+                <li>Git Version Control</li>
+                <li>Problem Solving</li>
+            </ol>
+
+            <h3>Tools I Use</h3>
+            <ul>
+                <li>Visual Studio Code</li>
+                <li>GitHub</li>
+                <li>Chrome DevTools</li>
+                <li>Figma</li>
+            </ul>
+        </section>
+
+        <section id="projects">
+            <h2>My Projects</h2>
+            <article>
+                <h3>Weather App</h3>
+                <p>A simple weather application that shows current weather conditions.</p>
+                <p><strong>Technologies:</strong> HTML, CSS, JavaScript, Weather API</p>
+            </article>
+            
+            <article>
+                <h3>Todo List Manager</h3>
+                <p>An interactive todo list with add, edit, and delete functionality.</p>
+                <p><strong>Technologies:</strong> HTML, CSS, JavaScript, Local Storage</p>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 John Doe. All rights reserved.</p>
+        <p>Contact me at: <a href="mailto:john@example.com">john@example.com</a></p>
+    </footer>
+</body>
+</html>
+
+// ===========================================
+// FILE 2: recipe-collection/recipes.html
+// ===========================================
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grandma's Recipe Collection - Traditional Family Recipes</title>
+</head>
+<body>
+    <header>
+        <h1>Grandma's Secret Recipe Collection</h1>
+        <p><em>Passed down through generations</em></p>
+    </header>
+
+    <nav>
+        <h2>Recipe Categories</h2>
+        <ul>
+            <li><a href="#appetizers">Appetizers</a></li>
+            <li><a href="#main-dishes">Main Dishes</a></li>
+            <li><a href="#desserts">Desserts</a></li>
+            <li><a href="#beverages">Beverages</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="main-dishes">
+            <h2>Main Dishes</h2>
+            
+            <article>
+                <h3>Classic Chicken Biryani</h3>
+                <p><strong>Prep Time:</strong> 30 minutes | <strong>Cook Time:</strong> 45 minutes</p>
+                <p><em>Serves 6 people</em></p>
+
+                <h4>Ingredients:</h4>
+                <ul>
+                    <li>2 cups Basmati rice</li>
+                    <li>1 kg chicken, cut into pieces</li>
+                    <li>2 large onions, sliced</li>
+                    <li>1 cup yogurt</li>
+                    <li>2 tbsp ginger-garlic paste</li>
+                    <li>Biryani spices (bay leaves, cardamom, cinnamon)</li>
+                    <li>Salt to taste</li>
+                    <li>Oil for cooking</li>
+                </ul>
+
+                <h4>Instructions:</h4>
+                <ol>
+                    <li>Soak rice in water for <strong>30 minutes</strong></li>
+                    <li>Marinate chicken with yogurt, ginger-garlic paste, and spices</li>
+                    <li>Fry onions until <em>golden brown</em></li>
+                    <li>Cook marinated chicken until tender</li>
+                    <li>Boil rice with whole spices until 70% cooked</li>
+                    <li>Layer rice and chicken alternately</li>
+                    <li>Cook on low heat for 45 minutes</li>
+                    <li>Serve hot with raita and salad</li>
+                </ol>
+
+                <blockquote>
+                    <p>"The secret ingredient is always love and patience." - Grandma</p>
+                </blockquote>
+            </article>
+        </section>
+
+        <section id="desserts">
+            <h2>Traditional Desserts</h2>
+            
+            <article>
+                <h3>Homemade Chocolate Cake</h3>
+                <p><small>A family favorite for over 50 years!</small></p>
+                
+                <h4>Dry Ingredients:</h4>
+                <ul>
+                    <li>2 cups all-purpose flour</li>
+                    <li>1 cup cocoa powder</li>
+                    <li>2 cups sugar</li>
+                    <li>1 tsp baking soda</li>
+                    <li>1/2 tsp salt</li>
+                </ul>
+
+                <h4>Wet Ingredients:</h4>
+                <ul>
+                    <li>1 cup milk</li>
+                    <li>1/2 cup vegetable oil</li>
+                    <li>2 large eggs</li>
+                    <li>1 tsp vanilla extract</li>
+                </ul>
+
+                <p><strong>Baking Time:</strong> 30-35 minutes at 350°F</p>
+                <p><em>Perfect for birthdays and special occasions!</em></p>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>These recipes have been in our family for generations.</p>
+        <p><strong>Happy Cooking!</strong> 👨‍🍳</p>
+    </footer>
+</body>
+</html>
+
+// ===========================================
+// FILE 3: school-project/science.html
+// ===========================================
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Solar System - Science Project by Sarah Smith</title>
+</head>
+<body>
+    <header>
+        <h1>Exploring Our Solar System</h1>
+        <p><strong>Science Project</strong> by <em>Sarah Smith</em></p>
+        <p><small>Grade 8 - Room 205</small></p>
+    </header>
+
+    <nav>
+        <h2>Project Contents</h2>
+        <ol>
+            <li><a href="#introduction">Introduction</a></li>
+            <li><a href="#planets">The Eight Planets</a></li>
+            <li><a href="#facts">Amazing Facts</a></li>
+            <li><a href="#conclusion">Conclusion</a></li>
+        </ol>
+    </nav>
+
+    <main>
+        <section id="introduction">
+            <h2>Introduction to Our Solar System</h2>
+            <p>Our solar system consists of the <strong>Sun</strong> and everything that orbits around it, including planets, moons, asteroids, and comets.</p>
+            <p>It formed approximately <em>4.6 billion years ago</em> from a giant molecular cloud.</p>
+            
+            <blockquote>
+                <p>"The universe is not only stranger than we imagine, it is stranger than we can imagine." - J.B.S. Haldane</p>
+            </blockquote>
+        </section>
+
+        <section id="planets">
+            <h2>The Eight Planets</h2>
+            
+            <article>
+                <h3>Inner Planets (Rocky Planets)</h3>
+                <ol>
+                    <li><strong>Mercury</strong> - Closest to the Sun</li>
+                    <li><strong>Venus</strong> - Hottest planet</li>
+                    <li><strong>Earth</strong> - Our home planet</li>
+                    <li><strong>Mars</strong> - The Red Planet</li>
+                </ol>
+                
+                <p><em>These planets are made mostly of rock and metal.</em></p>
+            </article>
+
+            <article>
+                <h3>Outer Planets (Gas Giants)</h3>
+                <ol start="5">
+                    <li><strong>Jupiter</strong> - Largest planet</li>
+                    <li><strong>Saturn</strong> - Has beautiful rings</li>
+                    <li><strong>Uranus</strong> - Tilted on its side</li>
+                    <li><strong>Neptune</strong> - Windiest planet</li>
+                </ol>
+                
+                <p><em>These planets are made mostly of gas and ice.</em></p>
+            </article>
+        </section>
+
+        <section id="facts">
+            <h2>Amazing Solar System Facts</h2>
+            <ul>
+                <li>The Sun contains <strong>99.86%</strong> of the system's mass</li>
+                <li>Jupiter has more than <em>75 moons</em></li>
+                <li>A day on Venus is longer than its year</li>
+                <li>Saturn would <small>float in water</small> if there was a bathtub big enough</li>
+                <li>Mars has the largest volcano in the solar system</li>
+                <li>Neptune takes <strong>165 Earth years</strong> to orbit the Sun once</li>
+            </ul>
+
+            <h3>Temperature Extremes</h3>
+            <p>Mercury can reach <strong>800°F (427°C)</strong> during the day but drop to <strong>-300°F (-184°C)</strong> at night!</p>
+        </section>
+
+        <section id="conclusion">
+            <h2>Project Conclusion</h2>
+            <p>Our solar system is an <em>incredible</em> place filled with diverse worlds and fascinating phenomena.</p>
+            <p>Each planet has its own unique characteristics that make it special.</p>
+            <p><strong>Future exploration</strong> will help us learn even more about our cosmic neighborhood.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p><small>Sources: NASA, National Geographic, Encyclopedia Britannica</small></p>
+        <p>Project completed on: <strong>March 15, 2024</strong></p>
+    </footer>
+</body>
+</html>
+
+// ===========================================
+// FILE 4: hobby-blog/blog.html
+// ===========================================
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gaming Chronicles - My Gaming Blog and Reviews</title>
+</head>
+<body>
+    <header>
+        <h1>Gaming Chronicles</h1>
+        <p><em>Adventures in the Digital World</em></p>
+        <p>By <strong>Alex GameMaster</strong></p>
+    </header>
+
+    <nav>
+        <h2>Blog Navigation</h2>
+        <ul>
+            <li><a href="#latest">Latest Posts</a></li>
+            <li><a href="#reviews">Game Reviews</a></li>
+            <li><a href="#tips">Gaming Tips</a></li>
+            <li><a href="#about-me">About Me</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="latest">
+            <h2>Latest Blog Posts</h2>
+            
+            <article>
+                <h3>My Journey to Becoming a Pro Gamer</h3>
+                <p><small>Published: March 20, 2024</small></p>
+                <p>It all started when I was <strong>12 years old</strong> and got my first gaming console.</p>
+                <p>I remember playing for hours, trying to beat the <em>final boss</em> in my favorite RPG game.</p>
+                
+                <h4>The Early Days</h4>
+                <ul>
+                    <li>Started with simple puzzle games</li>
+                    <li>Moved to action-adventure games</li>
+                    <li>Discovered online multiplayer gaming</li>
+                    <li>Joined my first gaming community</li>
+                </ul>
+
+                <blockquote>
+                    <p>"Gaming is not about winning or losing, it's about the journey and the friends you make along the way."</p>
+                </blockquote>
+            </article>
+
+            <article>
+                <h3>Top 5 Indie Games You Must Play</h3>
+                <p><small>Published: March 18, 2024</small></p>
+                <p>Indie games have become <em>incredibly popular</em> in recent years, and for good reason!</p>
+                
+                <ol>
+                    <li><strong>Hollow Knight</strong> - Beautiful hand-drawn art</li>
+                    <li><strong>Celeste</strong> - Challenging but rewarding platformer</li>
+                    <li><strong>Stardew Valley</strong> - Relaxing farming simulation</li>
+                    <li><strong>Among Us</strong> - Social deduction game</li>
+                    <li><strong>Hades</strong> - Amazing roguelike experience</li>
+                </ol>
+            </article>
+        </section>
+
+        <section id="reviews">
+            <h2>Game Reviews</h2>
+            
+            <article>
+                <h3>Review: The Legend of Zelda - Breath of the Wild</h3>
+                <p><strong>Rating:</strong> 9.5/10</p>
+                <p><em>Platform:</em> Nintendo Switch</p>
+                
+                <h4>What I Loved:</h4>
+                <ul>
+                    <li>Open-world exploration</li>
+                    <li>Beautiful art style</li>
+                    <li>Innovative gameplay mechanics</li>
+                    <li>Amazing soundtrack</li>
+                </ul>
+
+                <h4>Minor Issues:</h4>
+                <ul>
+                    <li>Weapon durability system</li>
+                    <li>Some repetitive shrines</li>
+                </ul>
+
+                <p><strong>Final Thoughts:</strong> This game redefined what an <em>open-world adventure</em> could be!</p>
+            </article>
+        </section>
+
+        <section id="tips">
+            <h2>Gaming Tips & Tricks</h2>
+            
+            <article>
+                <h3>How to Improve Your Gaming Skills</h3>
+                
+                <h4>Practice Makes Perfect</h4>
+                <ol>
+                    <li>Set aside <strong>dedicated practice time</strong></li>
+                    <li>Focus on one skill at a time</li>
+                    <li>Watch professional players</li>
+                    <li>Learn from your mistakes</li>
+                    <li>Stay patient and persistent</li>
+                </ol>
+
+                <h4>Equipment Matters</h4>
+                <p>Having the right equipment can make a <em>huge difference</em>:</p>
+                <ul>
+                    <li>Good gaming mouse and keyboard</li>
+                    <li>Comfortable gaming chair</li>
+                    <li>Quality headset for communication</li>
+                    <li>Stable internet connection</li>
+                </ul>
+
+                <p><small>Remember: Expensive equipment won't make you instantly better, but it can help!</small></p>
+            </article>
+        </section>
+
+        <section id="about-me">
+            <h2>About the Blogger</h2>
+            <p>Hi! I'm <strong>Alex</strong>, a passionate gamer who has been playing video games for over <em>10 years</em>.</p>
+            <p>I love exploring new worlds, solving challenging puzzles, and competing in online tournaments.</p>
+            
+            <h3>My Gaming Setup</h3>
+            <ul>
+                <li>Gaming PC with high-end graphics card</li>
+                <li>Nintendo Switch for portable gaming</li>
+                <li>PlayStation 5 for exclusive titles</li>
+                <li>Multiple monitors for streaming</li>
+            </ul>
+
+            <p><strong>Favorite Game Genres:</strong> RPG, Action-Adventure, Puzzle, Indie Games</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>Thanks for reading <strong>Gaming Chronicles</strong>!</p>
+        <p><em>Game on!</em> 🎮</p>
+        <p><small>© 2024 Alex GameMaster. All rights reserved.</small></p>
+    </footer>
+</body>
+</html>
+
+// ===========================================
+// FILE 5: contact-information/contact.html
+// ===========================================
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Information - Get in Touch with Our Team</title>
+</head>
+<body>
+    <header>
+        <h1>Contact Our Team</h1>
+        <p><em>We'd love to hear from you!</em></p>
+    </header>
+
+    <nav>
+        <h2>Contact Options</h2>
+        <ul>
+            <li><a href="#office-info">Office Information</a></li>
+            <li><a href="#team-contacts">Team Contacts</a></li>
+            <li><a href="#departments">Departments</a></li>
+            <li><a href="#hours">Business Hours</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="office-info">
+            <h2>Main Office Information</h2>
+            
+            <article>
+                <h3>Corporate Headquarters</h3>
+                <p><strong>Address:</strong></p>
+                <p>123 Business Avenue<br>
+                Suite 456<br>
+                Tech City, TC 12345<br>
+                United States</p>
+
+                <p><strong>Phone:</strong> <a href="tel:+15551234567">(555) 123-4567</a></p>
+                <p><strong>Email:</strong> <a href="mailto:info@company.com">info@company.com</a></p>
+                <p><strong>Website:</strong> <a href="https://www.company.com">www.company.com</a></p>
+            </article>
+
+            <article>
+                <h3>Branch Office</h3>
+                <p><strong>Location:</strong> Downtown Branch</p>
+                <p>789 Main Street<br>
+                Floor 12<br>
+                Metro City, MC 67890</p>
+
+                <p><strong>Phone:</strong> <a href="tel:+15559876543">(555) 987-6543</a></p>
+                <p><em>This office handles local customer support.</em></p>
+            </article>
+        </section>
+
+        <section id="team-contacts">
+            <h2>Key Team Members</h2>
+            
+            <article>
+                <h3>Management Team</h3>
+                <ul>
+                    <li><strong>John Smith</strong> - CEO
+                        <ul>
+                            <li>Email: <a href="mailto:john.smith@company.com">john.smith@company.com</a></li>
+                            <li>Phone: <a href="tel:+15551111111">(555) 111-1111</a></li>
+                        </ul>
+                    </li>
+                    <li><strong>Sarah Johnson</strong> - CTO
+                        <ul>
+                            <li>Email: <a href="mailto:sarah.johnson@company.com">sarah.johnson@company.com</a></li>
+                            <li>Phone: <a href="tel:+15552222222">(555) 222-2222</a></li>
+                        </ul>
+                    </li>
+                    <li><strong>Mike Davis</strong> - Head of Sales
+                        <ul>
+                            <li>Email: <a href="mailto:mike.davis@company.com">mike.davis@company.com</a></li>
+                            <li>Phone: <a href="tel:+15553333333">(555) 333-3333</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </article>
+
+            <article>
+                <h3>Support Team</h3>
+                <ol>
+                    <li><strong>Emma Wilson</strong> - Customer Support Manager</li>
+                    <li><strong>David Brown</strong> - Technical Support Lead</li>
+                    <li><strong>Lisa Garcia</strong> - Community Manager</li>
+                    <li><strong>Tom Anderson</strong> - Quality Assurance</li>
+                </ol>
+                
+                <p><em>For general support, please contact our main support line.</em></p>
+            </article>
+        </section>
+
+        <section id="departments">
+            <h2>Department Contact Information</h2>
+            
+            <article>
+                <h3>Customer Service</h3>
+                <p><strong>Phone:</strong> <a href="tel:+15554444444">(555) 444-4444</a></p>
+                <p><strong>Email:</strong> <a href="mailto:support@company.com">support@company.com</a></p>
+                <p><small>Available 24/7 for urgent issues</small></p>
+            </article>
+
+            <article>
+                <h3>Sales Department</h3>
+                <p><strong>Phone:</strong> <a href="tel:+15555555555">(555) 555-5555</a></p>
+                <p><strong>Email:</strong> <a href="mailto:sales@company.com">sales@company.com</a></p>
+                <p><em>Speak with our sales team about our products and services.</em></p>
+            </article>
+
+            <article>
+                <h3>Technical Support</h3>
+                <p><strong>Phone:</strong> <a href="tel:+15556666666">(555) 666-6666</a></p>
+                <p><strong>Email:</strong> <a href="mailto:tech@company.com">tech@company.com</a></p>
+                <p><strong>Live Chat:</strong> Available on our website</p>
+                <p><small>For technical issues and troubleshooting</small></p>
+            </article>
+
+            <article>
+                <h3>Human Resources</h3>
+                <p><strong>Phone:</strong> <a href="tel:+15557777777">(555) 777-7777</a></p>
+                <p><strong>Email:</strong> <a href="mailto:hr@company.com">hr@company.com</a></p>
+                <p><em>For employment inquiries and employee support</em></p>
+            </article>
+        </section>
+
+        <section id="hours">
+            <h2>Business Hours</h2>
+            
+            <article>
+                <h3>Main Office Hours</h3>
+                <ul>
+                    <li><strong>Monday - Friday:</strong> 9:00 AM - 6:00 PM</li>
+                    <li><strong>Saturday:</strong> 10:00 AM - 4:00 PM</li>
+                    <li><strong>Sunday:</strong> <em>Closed</em></li>
+                </ul>
+                <p><small>All times are in Eastern Standard Time (EST)</small></p>
+            </article>
+
+            <article>
+                <h3>Customer Support Hours</h3>
+                <ul>
+                    <li><strong>Phone Support:</strong> 24/7</li>
+                    <li><strong>Live Chat:</strong> 8:00 AM - 10:00 PM (Daily)</li>
+                    <li><strong>Email Support:</strong> Responses within 24 hours</li>
+                </ul>
+                
+                <blockquote>
+                    <p>"We're here to help you succeed. Don't hesitate to reach out!"</p>
+                </blockquote>
+            </article>
+
+            <article>
+                <h3>Holiday Schedule</h3>
+                <p><strong>Closed on the following holidays:</strong></p>
+                <ol>
+                    <li>New Year's Day</li>
+                    <li>Independence Day</li>
+                    <li>Thanksgiving Day</li>
+                    <li>Christmas Day</li>
+                </ol>
+                <p><em>Limited support available on other federal holidays.</em></p>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p><strong>Thank you for your interest in contacting us!</strong></p>
+        <p>We look forward to <em>hearing from you</em> soon.</p>
+        <p><small>Last updated: March 2024</small></p>
+    </footer>
+</body>
+</html>
