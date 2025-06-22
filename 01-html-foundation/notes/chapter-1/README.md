@@ -1,4 +1,4 @@
-# 📚 Concise Notes on Chapter 1: Structure (HTML Basics)
+# 📚 Chapter 1: Structure (HTML Basics)
 
 This chapter introduces the importance of structure in documents, particularly for web pages, and explains how HTML (HyperText Markup Language) is used to create structured web content. Below are concise notes summarizing the key points, organized for clarity and understanding. 🌐
 
