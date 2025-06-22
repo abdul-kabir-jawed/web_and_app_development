@@ -1,0 +1,794 @@
+<!-- File: index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Latest news from around the world">
+    <meta name="keywords" content="news, breaking news, sports, technology, politics">
+    <title>Global News Network - Latest Breaking News</title>
+</head>
+<body>
+    <header>
+        <h1>🌍 Global News Network</h1>
+        <p><em>Your trusted source for breaking news</em></p>
+        <hr>
+        <nav>
+            <ul>
+                <li><a href="./index.html"><strong>Home</strong></a></li>
+                <li><a href="./pages/sports/sports.html">Sports</a></li>
+                <li><a href="./pages/technology/tech.html">Technology</a></li>
+                <li><a href="./pages/politics/politics.html">Politics</a></li>
+                <li><a href="./about/about.html">About Us</a></li>
+            </ul>
+        </nav>
+        <hr>
+    </header>
+
+    <main>
+        <section>
+            <article>
+                <header>
+                    <h2>🔥 Breaking News</h2>
+                    <time datetime="2025-06-22">June 22, 2025</time>
+                </header>
+                
+                <img src="./images/news1.jpg" alt="Breaking news scene" width="400" height="250">
+                
+                <h3>Major Economic Summit Concludes with Historic Agreement</h3>
+                <p>World leaders gathered today to sign a <mark>groundbreaking economic cooperation treaty</mark> that will reshape international trade for the next decade.</p>
+                
+                <p>The agreement, which took <strong>three years to negotiate</strong>, includes provisions for:</p>
+                <ul>
+                    <li>Reduced trade barriers between member nations</li>
+                    <li>Enhanced digital commerce regulations</li>
+                    <li>Environmental protection standards</li>
+                    <li>Labor rights protections</li>
+                </ul>
+                
+                <blockquote>
+                    <p>"This historic agreement marks a new era of international cooperation and sustainable development."</p>
+                    <cite>- Prime Minister Sarah Johnson</cite>
+                </blockquote>
+                
+                <p>The treaty will officially take effect on <time datetime="2026-01-01">January 1st, 2026</time>.</p>
+            </article>
+        </section>
+
+        <hr>
+
+        <section>
+            <h2>📰 Latest Headlines</h2>
+            
+            <article>
+                <h3>🏈 Sports Update</h3>
+                <p>Championship finals set for this weekend with record-breaking ticket sales.</p>
+                <p><a href="./pages/sports/sports.html">Read more sports news →</a></p>
+            </article>
+
+            <article>
+                <h3>💻 Technology Breakthrough</h3>
+                <p>New AI system achieves milestone in medical diagnosis accuracy.</p>
+                <p><a href="./pages/technology/tech.html">Explore tech news →</a></p>
+            </article>
+
+            <article>
+                <h3>🏛️ Political Development</h3>
+                <p>Parliament passes comprehensive climate change legislation.</p>
+                <p><a href="./pages/politics/politics.html">Political updates →</a></p>
+            </article>
+        </section>
+
+        <aside>
+            <h3>📊 News Statistics</h3>
+            <table border="1">
+                <caption>Daily News Coverage</caption>
+                <thead>
+                    <tr>
+                        <th>Category</th>
+                        <th>Articles</th>
+                        <th>Views</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Breaking News</td>
+                        <td>15</td>
+                        <td>2.5M</td>
+                    </tr>
+                    <tr>
+                        <td>Sports</td>
+                        <td>28</td>
+                        <td>1.8M</td>
+                    </tr>
+                    <tr>
+                        <td>Technology</td>
+                        <td>22</td>
+                        <td>1.2M</td>
+                    </tr>
+                    <tr>
+                        <td>Politics</td>
+                        <td>18</td>
+                        <td>950K</td>
+                    </tr>
+                </tbody>
+            </table>
+        </aside>
+    </main>
+
+    <footer>
+        <hr>
+        <p><small>© 2025 Global News Network. All rights reserved.</small></p>
+        <address>
+            Contact us: <a href="mailto:news@globalnews.com">news@globalnews.com</a> | 
+            Phone: <a href="tel:+1234567890">+1-234-567-890</a>
+        </address>
+        <p>Follow us: 
+            <a href="#facebook">Facebook</a> | 
+            <a href="#twitter">Twitter</a> | 
+            <a href="#instagram">Instagram</a>
+        </p>
+    </footer>
+</body>
+</html>
+
+<!-- ========================= -->
+<!-- File: pages/sports/sports.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Latest sports news and updates">
+    <title>Sports News - Global News Network</title>
+</head>
+<body>
+    <header>
+        <h1>🏆 Sports News</h1>
+        <nav>
+            <ul>
+                <li><a href="../../index.html">Home</a></li>
+                <li><a href="./sports.html"><strong>Sports</strong></a></li>
+                <li><a href="../technology/tech.html">Technology</a></li>
+                <li><a href="../politics/politics.html">Politics</a></li>
+                <li><a href="../../about/about.html">About Us</a></li>
+            </ul>
+        </nav>
+        <hr>
+    </header>
+
+    <main>
+        <article>
+            <header>
+                <h2>🏆 Championship Finals This Weekend</h2>
+                <time datetime="2025-06-22">Published: June 22, 2025</time>
+            </header>
+
+            <img src="../../images/sports1.jpg" alt="Championship stadium packed with fans" width="500" height="300">
+
+            <p>The most anticipated sporting event of the year is finally here! The <strong>Championship Finals</strong> will take place this weekend at the iconic Metropolitan Stadium.</p>
+
+            <h3>Key Match Details:</h3>
+            <dl>
+                <dt><strong>Date:</strong></dt>
+                <dd>Sunday, June 25, 2025</dd>
+                <dt><strong>Time:</strong></dt>
+                <dd>7:00 PM EST</dd>
+                <dt><strong>Venue:</strong></dt>
+                <dd>Metropolitan Stadium</dd>
+                <dt><strong>Expected Attendance:</strong></dt>
+                <dd>85,000 fans</dd>
+            </dl>
+
+            <p>Ticket sales have broken all previous records with over <mark>2 million requests</mark> for the 85,000 available seats.</p>
+
+            <blockquote>
+                <p>"This is the match every athlete dreams of playing in. The energy from the fans will be absolutely electric."</p>
+                <cite>- Coach Michael Thompson</cite>
+            </blockquote>
+
+            <h3>Team Statistics Comparison</h3>
+            <table border="1">
+                <caption>Season Performance Comparison</caption>
+                <thead>
+                    <tr>
+                        <th>Team</th>
+                        <th>Wins</th>
+                        <th>Losses</th>
+                        <th>Goals Scored</th>
+                        <th>Goals Conceded</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Lions FC</strong></td>
+                        <td>24</td>
+                        <td>3</td>
+                        <td>68</td>
+                        <td>18</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Eagles United</strong></td>
+                        <td>22</td>
+                        <td>5</td>
+                        <td>72</td>
+                        <td>23</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h4>Pre-Game Analysis</h4>
+            <p>Both teams have shown exceptional form throughout the season. The <em>Lions FC</em> boast the best defensive record, while <em>Eagles United</em> lead in offensive statistics.</p>
+
+            <p>Weather forecast predicts perfect conditions with temperature around 22°C and clear skies.</p>
+
+            <h5>Player Spotlight</h5>
+            <p>Keep an eye on these key players:</p>
+            <ol>
+                <li><strong>Alex Rodriguez</strong> (Lions FC) - Top scorer with 28 goals</li>
+                <li><strong>Sarah Williams</strong> (Eagles United) - Most assists with 19</li>
+                <li><strong>David Chen</strong> (Lions FC) - Goalkeeper with 15 clean sheets</li>
+            </ol>
+        </article>
+
+        <aside>
+            <h3>📅 Upcoming Sports Events</h3>
+            <ul>
+                <li>Tennis Open - July 15-28</li>
+                <li>Swimming Championships - August 5-12</li>
+                <li>Basketball Finals - September 10</li>
+            </ul>
+        </aside>
+    </main>
+
+    <footer>
+        <hr>
+        <p><a href="../../index.html">← Back to Homepage</a></p>
+        <p><small>© 2025 Global News Network - Sports Division</small></p>
+    </footer>
+</body>
+</html>
+
+<!-- ========================= -->
+<!-- File: pages/technology/tech.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Latest technology news and innovations">
+    <title>Technology News - Global News Network</title>
+</head>
+<body>
+    <header>
+        <h1>💻 Technology News</h1>
+        <nav>
+            <ul>
+                <li><a href="../../index.html">Home</a></li>
+                <li><a href="../sports/sports.html">Sports</a></li>
+                <li><a href="./tech.html"><strong>Technology</strong></a></li>
+                <li><a href="../politics/politics.html">Politics</a></li>
+                <li><a href="../../about/about.html">About Us</a></li>
+            </ul>
+        </nav>
+        <hr>
+    </header>
+
+    <main>
+        <article>
+            <header>
+                <h2>🤖 AI Achieves Medical Diagnosis Breakthrough</h2>
+                <time datetime="2025-06-22">Published: June 22, 2025</time>
+            </header>
+
+            <img src="../../images/tech1.jpg" alt="AI medical diagnosis system in action" width="480" height="320">
+
+            <p>A revolutionary <abbr title="Artificial Intelligence">AI</abbr> system has achieved a <mark>98.7% accuracy rate</mark> in diagnosing complex medical conditions, surpassing human specialists in several key areas.</p>
+
+            <h3>Key Achievements:</h3>
+            <ul>
+                <li><strong>Cancer Detection:</strong> 99.2% accuracy in early-stage identification</li>
+                <li><strong>Heart Disease:</strong> 97.8% accuracy in risk assessment</li>
+                <li><strong>Neurological Disorders:</strong> 96.5% accuracy in pattern recognition</li>
+                <li><strong>Rare Diseases:</strong> 94.3% accuracy in diagnosis</li>
+            </ul>
+
+            <p>The system, developed by <em>MedTech Innovations</em>, uses advanced machine learning algorithms trained on over <strong>10 million</strong> medical cases.</p>
+
+            <blockquote>
+                <p>"This technology will democratize access to expert-level medical diagnosis, especially in underserved regions."</p>
+                <cite>- Dr. Jennifer Park, Lead AI Researcher</cite>
+            </blockquote>
+
+            <h4>Technical Specifications</h4>
+            <p>The AI system operates on several key components:</p>
+            <dl>
+                <dt><strong>Processing Power:</strong></dt>
+                <dd>2,000 <abbr title="Tera Operations Per Second">TOPS</abbr> neural processing capacity</dd>
+                <dt><strong>Memory:</strong></dt>
+                <dd>500 TB of medical knowledge database</dd>
+                <dt><strong>Response Time:</strong></dt>
+                <dd>Average diagnosis time: 0.3 seconds</dd>
+            </dl>
+
+            <h5>Implementation Timeline</h5>
+            <table border="1">
+                <caption>AI Medical System Rollout Schedule</caption>
+                <thead>
+                    <tr>
+                        <th>Phase</th>
+                        <th>Timeline</th>
+                        <th>Coverage</th>
+                        <th>Hospitals</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Phase 1</td>
+                        <td>Q3 2025</td>
+                        <td>Major Cities</td>
+                        <td>50</td>
+                    </tr>
+                    <tr>
+                        <td>Phase 2</td>
+                        <td>Q1 2026</td>
+                        <td>Regional Centers</td>
+                        <td>200</td>
+                    </tr>
+                    <tr>
+                        <td>Phase 3</td>
+                        <td>Q3 2026</td>
+                        <td>Rural Areas</td>
+                        <td>500+</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h6>Ethical Considerations</h6>
+            <p>The development team has addressed several ethical concerns:</p>
+            <ol>
+                <li><u>Data Privacy:</u> All patient data is encrypted and anonymized</li>
+                <li><u>Human Oversight:</u> Final decisions remain with medical professionals</li>
+                <li><u>Bias Prevention:</u> Training data includes diverse populations</li>
+                <li><u>Accessibility:</u> System designed for global deployment</li>
+            </ol>
+
+            <p><small><sup>*</sup>Clinical trials conducted across 15 countries with IRB approval</small></p>
+        </article>
+
+        <section>
+            <h3>🔬 Other Tech News</h3>
+            <article>
+                <h4>Quantum Computing Milestone</h4>
+                <p>Scientists achieve 1000-qubit stable quantum computer operation for over 24 hours.</p>
+                <p><time datetime="2025-06-21">Yesterday</time></p>
+            </article>
+
+            <article>
+                <h4>Green Energy Innovation</h4>
+                <p>New solar panel technology reaches 35% efficiency rate in laboratory tests.</p>
+                <p><time datetime="2025-06-20">2 days ago</time></p>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <hr>
+        <p><a href="../../index.html">← Back to Homepage</a></p>
+        <p><small>© 2025 Global News Network - Technology Division</small></p>
+        <address>
+            Tech News Tips: <a href="mailto:tech@globalnews.com">tech@globalnews.com</a>
+        </address>
+    </footer>
+</body>
+</html>
+
+<!-- ========================= -->
+<!-- File: pages/politics/politics.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Latest political news and government updates">
+    <title>Politics News - Global News Network</title>
+</head>
+<body>
+    <header>
+        <h1>🏛️ Politics & Government</h1>
+        <nav>
+            <ul>
+                <li><a href="../../index.html">Home</a></li>
+                <li><a href="../sports/sports.html">Sports</a></li>
+                <li><a href="../technology/tech.html">Technology</a></li>
+                <li><a href="./politics.html"><strong>Politics</strong></a></li>
+                <li><a href="../../about/about.html">About Us</a></li>
+            </ul>
+        </nav>
+        <hr>
+    </header>
+
+    <main>
+        <article>
+            <header>
+                <h2>🌱 Parliament Passes Climate Legislation</h2>
+                <time datetime="2025-06-22">Published: June 22, 2025</time>
+            </header>
+
+            <img src="../../images/politics1.jpg" alt="Parliament session voting on climate bill" width="520" height="300">
+
+            <p>In a historic vote today, Parliament passed the <strong>Comprehensive Climate Action Act</strong> with overwhelming bipartisan support, marking the most significant environmental legislation in decades.</p>
+
+            <h3>📊 Voting Results</h3>
+            <table border="1">
+                <caption>Final Vote Tally</caption>
+                <thead>
+                    <tr>
+                        <th>Party</th>
+                        <th>Yes Votes</th>
+                        <th>No Votes</th>
+                        <th>Abstentions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Progressive Party</td>
+                        <td>145</td>
+                        <td>2</td>
+                        <td>1</td>
+                    </tr>
+                    <tr>
+                        <td>Conservative Party</td>
+                        <td>89</td>
+                        <td>15</td>
+                        <td>8</td>
+                    </tr>
+                    <tr>
+                        <td>Independent</td>
+                        <td>12</td>
+                        <td>3</td>
+                        <td>2</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Total</strong></td>
+                        <td><strong>246</strong></td>
+                        <td><strong>20</strong></td>
+                        <td><strong>11</strong></td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h4>🎯 Key Provisions of the Act</h4>
+            <ol>
+                <li><strong>Carbon Emission Targets:</strong>
+                    <ul>
+                        <li>50% reduction by 2030</li>
+                        <li>Net-zero emissions by 2045</li>
+                        <li>Annual progress reviews</li>
+                    </ul>
+                </li>
+                <li><strong>Renewable Energy Investment:</strong>
+                    <ul>
+                        <li>$500 billion over 10 years</li>
+                        <li>Solar and wind farm expansion</li>
+                        <li>Green job creation programs</li>
+                    </ul>
+                </li>
+                <li><strong>Industry Regulations:</strong>
+                    <ul>
+                        <li>Mandatory emission reporting</li>
+                        <li>Carbon pricing mechanism</li>
+                        <li>Clean technology incentives</li>
+                    </ul>
+                </li>
+            </ol>
+
+            <blockquote>
+                <p>"Today we choose the future over short-term interests. This legislation will create millions of jobs while protecting our planet for future generations."</p>
+                <cite>- Speaker of the House, Maria Rodriguez</cite>
+            </blockquote>
+
+            <h5>🗣️ Political Reactions</h5>
+            <dl>
+                <dt><strong>Prime Minister Statement:</strong></dt>
+                <dd>"This bipartisan achievement demonstrates our democracy at its finest."</dd>
+                
+                <dt><strong>Opposition Leader Response:</strong></dt>
+                <dd>"While we had concerns about implementation costs, the final compromise addresses our key issues."</dd>
+                
+                <dt><strong>Environmental Groups:</strong></dt>
+                <dd>"A historic victory for climate action and environmental justice."</dd>
+                
+                <dt><strong>Business Coalition:</strong></dt>
+                <dd>"The predictable framework will help businesses plan long-term sustainable strategies."</dd>
+            </dl>
+
+            <h6>📅 Implementation Timeline</h6>
+            <p>The act will be implemented in several phases:</p>
+            <ul>
+                <li><time datetime="2025-07-01">July 1, 2025</time>: <mark>Initial regulations take effect</mark></li>
+                <li><time datetime="2026-01-01">January 1, 2026</time>: Carbon pricing begins</li>
+                <li><time datetime="2027-01-01">January 1, 2027</time>: Full compliance required</li>
+                <li><time datetime="2030-12-31">December 31, 2030</time>: First major milestone assessment</li>
+            </ul>
+
+            <p><em>The legislation now moves to the Senate for final approval, where it is expected to pass with similar margins.</em></p>
+
+            <p><small><sub>Economic impact analysis conducted by the National Budget Office</sub></small></p>
+        </article>
+
+        <aside>
+            <h3>📰 Political Headlines</h3>
+            <ul>
+                <li><a href="#budget">Budget Committee Reviews Infrastructure Spending</a></li>
+                <li><a href="#trade">New Trade Agreement with Asian Nations</a></li>
+                <li><a href="#election">Local Elections Scheduled for October</a></li>
+                <li><a href="#policy">Education Reform Bill in Committee</a></li>
+            </ul>
+        </aside>
+
+        <section>
+            <h3>📈 Political Polls</h3>
+            <table border="1">
+                <caption>Latest Approval Ratings</caption>
+                <thead>
+                    <tr>
+                        <th>Position</th>
+                        <th>Official</th>
+                        <th>Approval %</th>
+                        <th>Change</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Prime Minister</td>
+                        <td>John Smith</td>
+                        <td>67%</td>
+                        <td>+3%</td>
+                    </tr>
+                    <tr>
+                        <td>Deputy PM</td>
+                        <td>Lisa Chen</td>
+                        <td>58%</td>
+                        <td>+1%</td>
+                    </tr>
+                    <tr>
+                        <td>Finance Minister</td>
+                        <td>Ahmed Hassan</td>
+                        <td>62%</td>
+                        <td>-2%</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+
+    <footer>
+        <hr>
+        <p><a href="../../index.html">← Back to Homepage</a></p>
+        <p><small>© 2025 Global News Network - Politics Division</small></p>
+        <address>
+            Political News Tips: <a href="mailto:politics@globalnews.com">politics@globalnews.com</a>
+        </address>
+    </footer>
+</body>
+</html>
+
+<!-- ========================= -->
+<!-- File: about/about.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="About Global News Network - Your trusted news source">
+    <title>About Us - Global News Network</title>
+</head>
+<body>
+    <header>
+        <h1>📰 About Global News Network</h1>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../pages/sports/sports.html">Sports</a></li>
+                <li><a href="../pages/technology/tech.html">Technology</a></li>
+                <li><a href="../pages/politics/politics.html">Politics</a></li>
+                <li><a href="./about.html"><strong>About Us</strong></a></li>
+            </ul>
+        </nav>
+        <hr>
+    </header>
+
+    <main>
+        <section>
+            <h2>🌟 Our Mission</h2>
+            <p><strong>Global News Network</strong> is committed to delivering accurate, timely, and unbiased news coverage to audiences worldwide.</p>
+            
+            <blockquote>
+                <p>"Informing the world, one story at a time."</p>
+                <cite>- Our Company Motto</cite>
+            </blockquote>
+
+            <h3>🎯 Our Values</h3>
+            <ul>
+                <li><strong>Accuracy:</strong> We verify all facts before publication</li>
+                <li><strong>Integrity:</strong> We maintain editorial independence</li>
+                <li><strong>Transparency:</strong> We clearly identify sources and methods</li>
+                <li><strong>Diversity:</strong> We represent multiple perspectives</li>
+                <li><strong>Innovation:</strong> We embrace new technologies for better reporting</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>👥 Our Team</h2>
+            <p>Global News Network employs over <mark>500 journalists</mark> and media professionals across <strong>25 countries</strong>.</p>
+
+            <h3>📋 Leadership Team</h3>
+            <table border="1">
+                <caption>Executive Leadership</caption>
+                <thead>
+                    <tr>
+                        <th>Position</th>
+                        <th>Name</th>
+                        <th>Experience</th>
+                        <th>Specialization</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Editor-in-Chief</td>
+                        <td>Rebecca Thompson</td>
+                        <td>15 years</td>
+                        <td>Investigative Journalism</td>
+                    </tr>
+                    <tr>
+                        <td>Sports Director</td>
+                        <td>Marcus Johnson</td>
+                        <td>12 years</td>
+                        <td>Sports Broadcasting</td>
+                    </tr>
+                    <tr>
+                        <td>Tech Editor</td>
+                        <td>Dr. Priya Patel</td>
+                        <td>10 years</td>
+                        <td>Technology & Innovation</td>
+                    </tr>
+                    <tr>
+                        <td>Political Correspondent</td>
+                        <td>James Wilson</td>
+                        <td>18 years</td>
+                        <td>Government & Policy</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h4>🏆 Awards & Recognition</h4>
+            <dl>
+                <dt><strong>2024:</strong></dt>
+                <dd>Excellence in Digital Journalism Award</dd>
+                <dt><strong>2023:</strong></dt>
+                <dd>International Press Freedom Prize</dd>
+                <dt><strong>2022:</strong></dt>
+                <dd>Best Investigative Reporting Series</dd>
+                <dt><strong>2021:</strong></dt>
+                <dd>Outstanding COVID-19 Coverage Recognition</dd>
+            </dl>
+        </section>
+
+        <section>
+            <h2>📊 Our Reach</h2>
+            <p>We serve millions of readers daily across multiple platforms:</p>
+            
+            <h5>Platform Statistics (Monthly)</h5>
+            <ol>
+                <li><strong>Website:</strong> 50 million unique visitors</li>
+                <li><strong>Mobile App:</strong> 15 million active users</li>
+                <li><strong>Social Media:</strong> 25 million followers combined</li>
+                <li><strong>Newsletter:</strong> 5 million subscribers</li>
+                <li><strong>Podcast:</strong> 2 million downloads</li>
+            </ol>
+
+            <h6>Global Coverage</h6>
+            <p>Our bureaus are located in major cities worldwide:</p>
+            <ul>
+                <li>🇺🇸 <em>North America:</em> New York, Los Angeles, Toronto</li>
+                <li>🇪🇺 <em>Europe:</em> London, Paris, Berlin, Rome</li>
+                <li>🇦🇺 <em>Asia-Pacific:</em> Tokyo, Sydney, Singapore, Mumbai</li>
+                <li>🌍 <em>Middle East & Africa:</em> Dubai, Cairo, Johannesburg</li>
+                <li>🌎 <em>Latin America:</em> São Paulo, Mexico City, Buenos Aires</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>📞 Contact Information</h2>
+            <address>
+                <h4>🏢 Headquarters</h4>
+                <p>
+                    Global News Network<br>
+                    123 Media Plaza, Suite 4500<br>
+                    News City, NC 12345<br>
+                    United States
+                </p>
+                
+                <h4>📧 Contact Details</h4>
+                <ul>
+                    <li><strong>General Inquiries:</strong> <a href="mailto:info@globalnews.com">info@globalnews.com</a></li>
+                    <li><strong>News Tips:</strong> <a href="mailto:tips@globalnews.com">tips@globalnews.com</a></li>
+                    <li><strong>Editorial:</strong> <a href="mailto:editorial@globalnews.com">editorial@globalnews.com</a></li>
+                    <li><strong>Advertising:</strong> <a href="mailto:ads@globalnews.com">ads@globalnews.com</a></li>
+                </ul>
+
+                <h4>📱 Phone Numbers</h4>
+                <ul>
+                    <li><strong>Main Office:</strong> <a href="tel:+1234567890">+1-234-567-890</a></li>
+                    <li><strong>Newsroom:</strong> <a href="tel:+1234567891">+1-234-567-891</a></li>
+                    <li><strong>Customer Service:</strong> <a href="tel:+1234567892">+1-234-567-892</a></li>
+                </ul>
+            </address>
+        </section>
+
+        <section>
+            <h2>🕒 Operating Hours</h2>
+            <table border="1">
+                <caption>Department Hours (EST)</caption>
+                <thead>
+                    <tr>
+                        <th>Department</th>
+                        <th>Weekdays</th>
+                        <th>Weekends</th>
+                        <th>Holidays</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Newsroom</td>
+                        <td>24/7</td>
+                        <td>24/7</td>
+                        <td>24/7</td>
+                    </tr>
+                    <tr>
+                        <td>Customer Service</td>
+                        <td>9 AM - 6 PM</td>
+                        <td>10 AM - 4 PM</td>
+                        <td>Closed</td>
+                    </tr>
+                    <tr>
+                        <td>Administration</td>
+                        <td>8 AM - 5 PM</td>
+                        <td>Closed</td>
+                        <td>Closed</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <aside>
+            <h3>💼 Career Opportunities</h3>
+            <p>Join our dynamic team! We're always looking for talented journalists, editors, and media professionals.</p>
+            <p><strong>Current Openings:</strong></p>
+            <ul>
+                <li>Senior Reporter - Environmental Beat</li>
+                <li>Video Producer - Digital Content</li>
+                <li>Data Journalist - Analytics Team</li>
+                <li>Social Media Manager - Engagement</li>
+            </ul>
+            <p><a href="mailto:careers@globalnews.com">Send your resume to careers@globalnews.com</a></p>
+        </aside>
+    </main>
+
+    <footer>
+        <hr>
+        <p><a href="../index.html">← Back to Homepage</a></p>
+        <p><small>© 2025 Global News Network. All rights reserved.</small></p>
+        <p><small>Founded in 2010 | Trusted by millions worldwide</small></p>
+        <p>Follow us: 
+            <a href="#facebook">Facebook</a> | 
+            <a href="#twitter">Twitter</a> | 
+            <a href="#linkedin">LinkedIn</a> | 
+            <a href="#youtube">YouTube</a>
+        </p>
+    </footer>
+</body>
+</html>
+
+<!-- ========================= -->
