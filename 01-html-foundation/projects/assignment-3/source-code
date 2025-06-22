@@ -1,0 +1,407 @@
+<!-- ====================================== -->
+<!-- ROOT LEVEL FILES -->
+<!-- ====================================== -->
+
+<!-- FILE: index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage - Assignment 3</title>
+</head>
+<body>
+    <h1>Homepage - Welcome to Our Website</h1>
+    
+    <h2>Navigation Menu</h2>
+    <ul>
+        <li><a href="./index.html">Homepage</a></li>
+        <li><a href="./about.html">About Us</a></li>
+        <li><a href="./contact.html">Contact</a></li>
+        <li><a href="./services.html">Services</a></li>
+        <li><a href="./pages/portfolio.html">Portfolio</a></li>
+        <li><a href="./pages/blog.html">Blog</a></li>
+        <li><a href="./pages/team.html">Team</a></li>
+        <li><a href="./pages/admin/dashboard.html">Admin Dashboard</a></li>
+        <li><a href="./pages/admin/users.html">User Management</a></li>
+        <li><a href="./pages/admin/settings.html">Settings</a></li>
+        <li><a href="./pages/products/catalog.html">Product Catalog</a></li>
+        <li><a href="./pages/products/details.html">Product Details</a></li>
+    </ul>
+    
+    <p>This is the main homepage of our website. Welcome to Assignment 3!</p>
+</body>
+</html>
+
+<!-- ====================================== -->
+
+<!-- FILE: about.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Assignment 3</title>
+</head>
+<body>
+    <h1>About Us - Company Information</h1>
+    
+    <h2>Navigation Menu</h2>
+    <ul>
+        <li><a href="./index.html">Homepage</a></li>
+        <li><a href="./about.html">About Us</a></li>
+        <li><a href="./contact.html">Contact</a></li>
+        <li><a href="./services.html">Services</a></li>
+        <li><a href="./pages/portfolio.html">Portfolio</a></li>
+        <li><a href="./pages/blog.html">Blog</a></li>
+        <li><a href="./pages/team.html">Team</a></li>
+        <li><a href="./pages/admin/dashboard.html">Admin Dashboard</a></li>
+        <li><a href="./pages/admin/users.html">User Management</a></li>
+        <li><a href="./pages/admin/settings.html">Settings</a></li>
+        <li><a href="./pages/products/catalog.html">Product Catalog</a></li>
+        <li><a href="./pages/products/details.html">Product Details</a></li>
+    </ul>
+    
+    <p>Learn more about our company, mission, and values on this page.</p>
+</body>
+</html>
+
+<!-- ====================================== -->
+
+<!-- FILE: contact.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Assignment 3</title>
+</head>
+<body>
+    <h1>Contact - Get in Touch</h1>
+    
+    <h2>Navigation Menu</h2>
+    <ul>
+        <li><a href="./index.html">Homepage</a></li>
+        <li><a href="./about.html">About Us</a></li>
+        <li><a href="./contact.html">Contact</a></li>
+        <li><a href="./services.html">Services</a></li>
+        <li><a href="./pages/portfolio.html">Portfolio</a></li>
+        <li><a href="./pages/blog.html">Blog</a></li>
+        <li><a href="./pages/team.html">Team</a></li>
+        <li><a href="./pages/admin/dashboard.html">Admin Dashboard</a></li>
+        <li><a href="./pages/admin/users.html">User Management</a></li>
+        <li><a href="./pages/admin/settings.html">Settings</a></li>
+        <li><a href="./pages/products/catalog.html">Product Catalog</a></li>
+        <li><a href="./pages/products/details.html">Product Details</a></li>
+    </ul>
+    
+    <p>Contact information and forms can be found here.</p>
+</body>
+</html>
+
+<!-- ====================================== -->
+
+<!-- FILE: services.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services - Assignment 3</title>
+</head>
+<body>
+    <h1>Services - What We Offer</h1>
+    
+    <h2>Navigation Menu</h2>
+    <ul>
+        <li><a href="./index.html">Homepage</a></li>
+        <li><a href="./about.html">About Us</a></li>
+        <li><a href="./contact.html">Contact</a></li>
+        <li><a href="./services.html">Services</a></li>
+        <li><a href="./pages/portfolio.html">Portfolio</a></li>
+        <li><a href="./pages/blog.html">Blog</a></li>
+        <li><a href="./pages/team.html">Team</a></li>
+        <li><a href="./pages/admin/dashboard.html">Admin Dashboard</a></li>
+        <li><a href="./pages/admin/users.html">User Management</a></li>
+        <li><a href="./pages/admin/settings.html">Settings</a></li>
+        <li><a href="./pages/products/catalog.html">Product Catalog</a></li>
+        <li><a href="./pages/products/details.html">Product Details</a></li>
+    </ul>
+    
+    <p>Discover all the services we provide to our clients.</p>
+</body>
+</html>
+
+<!-- ====================================== -->
+<!-- PAGES LEVEL FILES (./pages/) -->
+<!-- ====================================== -->
+
+<!-- FILE: pages/portfolio.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Assignment 3</title>
+</head>
+<body>
+    <h1>Portfolio - Our Work Showcase</h1>
+    
+    <h2>Navigation Menu</h2>
+    <ul>
+        <li><a href="../index.html">Homepage</a></li>
+        <li><a href="../about.html">About Us</a></li>
+        <li><a href="../contact.html">Contact</a></li>
+        <li><a href="../services.html">Services</a></li>
+        <li><a href="./portfolio.html">Portfolio</a></li>
+        <li><a href="./blog.html">Blog</a></li>
+        <li><a href="./team.html">Team</a></li>
+        <li><a href="./admin/dashboard.html">Admin Dashboard</a></li>
+        <li><a href="./admin/users.html">User Management</a></li>
+        <li><a href="./admin/settings.html">Settings</a></li>
+        <li><a href="./products/catalog.html">Product Catalog</a></li>
+        <li><a href="./products/details.html">Product Details</a></li>
+    </ul>
+    
+    <p>Browse through our portfolio of completed projects and successful work.</p>
+</body>
+</html>
+
+<!-- ====================================== -->
+
+<!-- FILE: pages/blog.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog - Assignment 3</title>
+</head>
+<body>
+    <h1>Blog - Latest News and Updates</h1>
+    
+    <h2>Navigation Menu</h2>
+    <ul>
+        <li><a href="../index.html">Homepage</a></li>
+        <li><a href="../about.html">About Us</a></li>
+        <li><a href="../contact.html">Contact</a></li>
+        <li><a href="../services.html">Services</a></li>
+        <li><a href="./portfolio.html">Portfolio</a></li>
+        <li><a href="./blog.html">Blog</a></li>
+        <li><a href="./team.html">Team</a></li>
+        <li><a href="./admin/dashboard.html">Admin Dashboard</a></li>
+        <li><a href="./admin/users.html">User Management</a></li>
+        <li><a href="./admin/settings.html">Settings</a></li>
+        <li><a href="./products/catalog.html">Product Catalog</a></li>
+        <li><a href="./products/details.html">Product Details</a></li>
+    </ul>
+    
+    <p>Read our latest blog posts, news, and industry updates.</p>
+</body>
+</html>
+
+<!-- ====================================== -->
+
+<!-- FILE: pages/team.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Team - Assignment 3</title>
+</head>
+<body>
+    <h1>Team - Meet Our People</h1>
+    
+    <h2>Navigation Menu</h2>
+    <ul>
+        <li><a href="../index.html">Homepage</a></li>
+        <li><a href="../about.html">About Us</a></li>
+        <li><a href="../contact.html">Contact</a></li>
+        <li><a href="../services.html">Services</a></li>
+        <li><a href="./portfolio.html">Portfolio</a></li>
+        <li><a href="./blog.html">Blog</a></li>
+        <li><a href="./team.html">Team</a></li>
+        <li><a href="./admin/dashboard.html">Admin Dashboard</a></li>
+        <li><a href="./admin/users.html">User Management</a></li>
+        <li><a href="./admin/settings.html">Settings</a></li>
+        <li><a href="./products/catalog.html">Product Catalog</a></li>
+        <li><a href="./products/details.html">Product Details</a></li>
+    </ul>
+    
+    <p>Get to know our talented team members and their expertise.</p>
+</body>
+</html>
+
+<!-- ====================================== -->
+<!-- ADMIN LEVEL FILES (./pages/admin/) -->
+<!-- ====================================== -->
+
+<!-- FILE: pages/admin/dashboard.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard - Assignment 3</title>
+</head>
+<body>
+    <h1>Admin Dashboard - Control Panel</h1>
+    
+    <h2>Navigation Menu</h2>
+    <ul>
+        <li><a href="../../index.html">Homepage</a></li>
+        <li><a href="../../about.html">About Us</a></li>
+        <li><a href="../../contact.html">Contact</a></li>
+        <li><a href="../../services.html">Services</a></li>
+        <li><a href="../portfolio.html">Portfolio</a></li>
+        <li><a href="../blog.html">Blog</a></li>
+        <li><a href="../team.html">Team</a></li>
+        <li><a href="./dashboard.html">Admin Dashboard</a></li>
+        <li><a href="./users.html">User Management</a></li>
+        <li><a href="./settings.html">Settings</a></li>
+        <li><a href="../products/catalog.html">Product Catalog</a></li>
+        <li><a href="../products/details.html">Product Details</a></li>
+    </ul>
+    
+    <p>Administrative dashboard for managing website content and users.</p>
+</body>
+</html>
+
+<!-- ====================================== -->
+
+<!-- FILE: pages/admin/users.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Management - Assignment 3</title>
+</head>
+<body>
+    <h1>User Management - Manage Users</h1>
+    
+    <h2>Navigation Menu</h2>
+    <ul>
+        <li><a href="../../index.html">Homepage</a></li>
+        <li><a href="../../about.html">About Us</a></li>
+        <li><a href="../../contact.html">Contact</a></li>
+        <li><a href="../../services.html">Services</a></li>
+        <li><a href="../portfolio.html">Portfolio</a></li>
+        <li><a href="../blog.html">Blog</a></li>
+        <li><a href="../team.html">Team</a></li>
+        <li><a href="./dashboard.html">Admin Dashboard</a></li>
+        <li><a href="./users.html">User Management</a></li>
+        <li><a href="./settings.html">Settings</a></li>
+        <li><a href="../products/catalog.html">Product Catalog</a></li>
+        <li><a href="../products/details.html">Product Details</a></li>
+    </ul>
+    
+    <p>Manage user accounts, permissions, and access levels.</p>
+</body>
+</html>
+
+<!-- ====================================== -->
+
+<!-- FILE: pages/admin/settings.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Settings - Assignment 3</title>
+</head>
+<body>
+    <h1>Settings - System Configuration</h1>
+    
+    <h2>Navigation Menu</h2>
+    <ul>
+        <li><a href="../../index.html">Homepage</a></li>
+        <li><a href="../../about.html">About Us</a></li>
+        <li><a href="../../contact.html">Contact</a></li>
+        <li><a href="../../services.html">Services</a></li>
+        <li><a href="../portfolio.html">Portfolio</a></li>
+        <li><a href="../blog.html">Blog</a></li>
+        <li><a href="../team.html">Team</a></li>
+        <li><a href="./dashboard.html">Admin Dashboard</a></li>
+        <li><a href="./users.html">User Management</a></li>
+        <li><a href="./settings.html">Settings</a></li>
+        <li><a href="../products/catalog.html">Product Catalog</a></li>
+        <li><a href="../products/details.html">Product Details</a></li>
+    </ul>
+    
+    <p>Configure system settings, preferences, and administrative options.</p>
+</body>
+</html>
+
+<!-- ====================================== -->
+<!-- PRODUCTS LEVEL FILES (./pages/products/) -->
+<!-- ====================================== -->
+
+<!-- FILE: pages/products/catalog.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Catalog - Assignment 3</title>
+</head>
+<body>
+    <h1>Product Catalog - Browse Products</h1>
+    
+    <h2>Navigation Menu</h2>
+    <ul>
+        <li><a href="../../index.html">Homepage</a></li>
+        <li><a href="../../about.html">About Us</a></li>
+        <li><a href="../../contact.html">Contact</a></li>
+        <li><a href="../../services.html">Services</a></li>
+        <li><a href="../portfolio.html">Portfolio</a></li>
+        <li><a href="../blog.html">Blog</a></li>
+        <li><a href="../team.html">Team</a></li>
+        <li><a href="../admin/dashboard.html">Admin Dashboard</a></li>
+        <li><a href="../admin/users.html">User Management</a></li>
+        <li><a href="../admin/settings.html">Settings</a></li>
+        <li><a href="./catalog.html">Product Catalog</a></li>
+        <li><a href="./details.html">Product Details</a></li>
+    </ul>
+    
+    <p>Browse our complete product catalog and find what you need.</p>
+</body>
+</html>
+
+<!-- ====================================== -->
+
+<!-- FILE: pages/products/details.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Details - Assignment 3</title>
+</head>
+<body>
+    <h1>Product Details - Detailed Information</h1>
+    
+    <h2>Navigation Menu</h2>
+    <ul>
+        <li><a href="../../index.html">Homepage</a></li>
+        <li><a href="../../about.html">About Us</a></li>
+        <li><a href="../../contact.html">Contact</a></li>
+        <li><a href="../../services.html">Services</a></li>
+        <li><a href="../portfolio.html">Portfolio</a></li>
+        <li><a href="../blog.html">Blog</a></li>
+        <li><a href="../team.html">Team</a></li>
+        <li><a href="../admin/dashboard.html">Admin Dashboard</a></li>
+        <li><a href="../admin/users.html">User Management</a></li>
+        <li><a href="../admin/settings.html">Settings</a></li>
+        <li><a href="./catalog.html">Product Catalog</a></li>
+        <li><a href="./details.html">Product Details</a></li>
+    </ul>
+    
+    <p>View detailed information about specific products and their features.</p>
+</body>
+</html>
+
+<!-- ====================================== -->
+<!-- END OF SOURCE CODE -->
+<!-- ====================================== -->
