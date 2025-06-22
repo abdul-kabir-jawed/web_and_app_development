@@ -1,0 +1,536 @@
+<!-- index.html - Main Gallery Page -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Beautiful HTML Image Gallery showcasing nature, wildlife, and landscapes">
+    <meta name="keywords" content="gallery, images, nature, wildlife, photography">
+    <meta name="author" content="Student Name">
+    <title>Amazing Image Gallery - Assignment 5</title>
+</head>
+<body>
+    <header>
+        <h1>🌟 Amazing Image Gallery 🌟</h1>
+        <nav>
+            <a href="#nature">Nature</a> | 
+            <a href="#wildlife">Wildlife</a> | 
+            <a href="#landscapes">Landscapes</a>
+        </nav>
+        <hr>
+    </header>
+
+    <main>
+        <article>
+            <header>
+                <h2>Welcome to Our Photography Collection</h2>
+                <p><strong>Explore</strong> our curated collection of <em>stunning photographs</em> from around the world!</p>
+            </header>
+
+            <section id="nature">
+                <h3>🌿 Nature Collection</h3>
+                <p>Discover the <mark>beauty of nature</mark> through these captivating images.</p>
+                
+                <figure>
+                    <a href="./pages/nature1.html" target="_blank">
+                        <img src="https://picsum.photos/300/200?random=1" alt="Serene Mountain Lake" width="300" height="200">
+                    </a>
+                    <figcaption><strong>Mountain Lake</strong> - A peaceful morning reflection</figcaption>
+                </figure>
+
+                <figure>
+                    <a href="./pages/nature2.html">
+                        <img src="https://picsum.photos/300/200?random=2" alt="Golden Sunset Beach" width="300" height="200">
+                    </a>
+                    <figcaption><em>Sunset Beach</em> - Golden hour paradise</figcaption>
+                </figure>
+
+                <figure>
+                    <a href="./pages/nature3.html" target="_blank">
+                        <img src="https://picsum.photos/300/200?random=3" alt="Mystical Forest Path" width="300" height="200">
+                    </a>
+                    <figcaption><u>Forest Path</u> - Journey into the unknown</figcaption>
+                </figure>
+            </section>
+
+            <hr>
+
+            <section id="wildlife">
+                <h3>🦅 Wildlife Collection</h3>
+                <p>Experience the <b>wild side</b> of nature with these amazing animal photographs.</p>
+
+                <figure>
+                    <a href="./pages/wildlife1.html">
+                        <img src="https://picsum.photos/300/200?random=4" alt="Soaring Eagle" width="300" height="200">
+                    </a>
+                    <figcaption>Majestic <strong>Eagle</strong> in flight</figcaption>
+                </figure>
+
+                <figure>
+                    <a href="./pages/wildlife2.html" target="_blank">
+                        <img src="https://picsum.photos/300/200?random=5" alt="Tiger Portrait" width="300" height="200">
+                    </a>
+                    <figcaption><i>Royal Tiger</i> - King of the jungle</figcaption>
+                </figure>
+
+                <figure>
+                    <a href="./pages/wildlife3.html">
+                        <img src="https://picsum.photos/300/200?random=6" alt="Dolphin Jump" width="300" height="200">
+                    </a>
+                    <figcaption>Playful <strong>Dolphin</strong> leap</figcaption>
+                </figure>
+            </section>
+
+            <hr>
+
+            <section id="landscapes">
+                <h3>🏔️ Landscape Collection</h3>
+                <p>Marvel at these <ins>breathtaking landscapes</ins> from diverse terrains.</p>
+
+                <figure>
+                    <a href="./pages/landscape1.html" target="_blank">
+                        <img src="https://picsum.photos/300/200?random=7" alt="Desert Dunes" width="300" height="200">
+                    </a>
+                    <figcaption><strong>Desert Dunes</strong> - Endless sand waves</figcaption>
+                </figure>
+
+                <figure>
+                    <a href="./pages/landscape2.html">
+                        <img src="https://picsum.photos/300/200?random=8" alt="Waterfall Cascade" width="300" height="200">
+                    </a>
+                    <figcaption><em>Waterfall</em> - Nature's power display</figcaption>
+                </figure>
+
+                <figure>
+                    <a href="./pages/landscape3.html" target="_blank">
+                        <img src="https://picsum.photos/300/200?random=9" alt="Northern Lights" width="300" height="200">
+                    </a>
+                    <figcaption><mark>Northern Lights</mark> - Aurora magic</figcaption>
+                </figure>
+            </section>
+        </article>
+
+        <aside>
+            <h4>Gallery Statistics</h4>
+            <table border="1">
+                <caption>Image Collection Summary</caption>
+                <thead>
+                    <tr>
+                        <th>Category</th>
+                        <th>Count</th>
+                        <th>Featured</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Nature</td>
+                        <td>3</td>
+                        <td>✓</td>
+                    </tr>
+                    <tr>
+                        <td>Wildlife</td>
+                        <td>3</td>
+                        <td>✓</td>
+                    </tr>
+                    <tr>
+                        <td>Landscapes</td>
+                        <td>3</td>
+                        <td>✓</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td><strong>Total</strong></td>
+                        <td><strong>9</strong></td>
+                        <td><strong>All</strong></td>
+                    </tr>
+                </tfoot>
+            </table>
+        </aside>
+
+        <section>
+            <h4>Contact Form</h4>
+            <form action="#" method="post">
+                <fieldset>
+                    <legend>Share Your Feedback</legend>
+                    <label for="name">Name:</label><br>
+                    <input type="text" id="name" name="name" placeholder="Your name"><br><br>
+                    
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email" name="email" placeholder="your@email.com"><br><br>
+                    
+                    <label for="category">Favorite Category:</label><br>
+                    <select id="category" name="category">
+                        <option value="">Choose category</option>
+                        <option value="nature">Nature</option>
+                        <option value="wildlife">Wildlife</option>
+                        <option value="landscape">Landscape</option>
+                    </select><br><br>
+                    
+                    <label for="comment">Comments:</label><br>
+                    <textarea id="comment" name="comment" rows="4" cols="50" placeholder="Tell us what you think..."></textarea><br><br>
+                    
+                    <button type="submit">Submit Feedback</button>
+                    <button type="reset">Clear Form</button>
+                </fieldset>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <hr>
+        <address>
+            <p>Created by: <strong>Student Name</strong><br>
+            Email: <a href="mailto:student@example.com">student@example.com</a><br>
+            <time datetime="2025-06-22">June 22, 2025</time></p>
+        </address>
+        
+        <blockquote cite="https://example.com">
+            <p><em>"Photography is the story I fail to put into words."</em></p>
+            <cite>- Destin Sparks</cite>
+        </blockquote>
+
+        <p><small>&copy; 2025 Amazing Image Gallery. All rights reserved.</small></p>
+    </footer>
+</body>
+</html>
+
+<!-- =================================================================== -->
+<!-- pages/nature1.html - Mountain Lake Detail Page -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mountain Lake - Nature Gallery</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="../index.html">← Back to Gallery</a> | 
+            <a href="./nature2.html">Next →</a>
+        </nav>
+        <h1>🏔️ Serene Mountain Lake</h1>
+    </header>
+
+    <main>
+        <figure>
+            <img src="https://picsum.photos/600/400?random=1" alt="Serene Mountain Lake" width="600" height="400">
+            <figcaption><strong>Mountain Lake Reflection</strong> - Captured at sunrise</figcaption>
+        </figure>
+
+        <article>
+            <h2>About This Image</h2>
+            <p>This <strong>breathtaking photograph</strong> captures the <em>perfect tranquility</em> of a mountain lake at dawn. The still waters create a <mark>mirror-like reflection</mark> of the surrounding peaks.</p>
+            
+            <h3>Technical Details</h3>
+            <dl>
+                <dt><strong>Location:</strong></dt>
+                <dd>Rocky Mountain National Park</dd>
+                <dt><strong>Time:</strong></dt>
+                <dd><time datetime="06:30">6:30 AM</time></dd>
+                <dt><strong>Season:</strong></dt>
+                <dd>Early Summer</dd>
+                <dt><strong>Weather:</strong></dt>
+                <dd>Clear skies, <sup>22</sup>°C</dd>
+            </dl>
+
+            <h4>Photography Notes</h4>
+            <ul>
+                <li><strong>Technique:</strong> Long exposure for smooth water</li>
+                <li><em>Composition:</em> Rule of thirds applied</li>
+                <li><u>Focus:</u> Hyperfocal distance for maximum sharpness</li>
+                <li><mark>Special:</mark> Golden hour lighting</li>
+            </ul>
+
+            <blockquote>
+                <p><i>"In every walk with nature, one receives far more than they seek."</i></p>
+                <cite>~ John Muir</cite>
+            </blockquote>
+        </article>
+
+        <aside>
+            <h4>Similar Images</h4>
+            <ol>
+                <li><a href="./nature2.html">Sunset Beach</a></li>
+                <li><a href="./nature3.html">Forest Path</a></li>
+                <li><a href="./landscape2.html">Waterfall Cascade</a></li>
+            </ol>
+        </aside>
+    </main>
+
+    <footer>
+        <hr>
+        <p><small>Photo Details | <a href="../index.html">Return to Gallery</a></small></p>
+    </footer>
+</body>
+</html>
+
+<!-- =================================================================== -->
+<!-- pages/nature2.html - Sunset Beach Detail Page -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sunset Beach - Nature Gallery</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="../index.html">← Back to Gallery</a> | 
+            <a href="./nature1.html">← Previous</a> | 
+            <a href="./nature3.html">Next →</a>
+        </nav>
+        <h1>🌅 Golden Sunset Beach</h1>
+    </header>
+
+    <main>
+        <figure>
+            <img src="https://picsum.photos/600/400?random=2" alt="Golden Sunset Beach" width="600" height="400">
+            <figcaption><strong>Beach Sunset</strong> - <em>Nature's daily masterpiece</em></figcaption>
+        </figure>
+
+        <article>
+            <h2>Sunset Paradise</h2>
+            <p>This <b>magnificent sunset</b> was captured during the <mark>golden hour</mark> when the sun kisses the horizon. The <i>warm colors</i> reflect beautifully on the wet sand and gentle waves.</p>
+
+            <section>
+                <h3>Color Analysis</h3>
+                <table border="1">
+                    <caption>Sunset Color Palette</caption>
+                    <colgroup>
+                        <col span="2">
+                        <col>
+                    </colgroup>
+                    <thead>
+                        <tr>
+                            <th>Color</th>
+                            <th>Sky %</th>
+                            <th>Water %</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>Orange</strong></td>
+                            <td>40%</td>
+                            <td>20%</td>
+                        </tr>
+                        <tr>
+                            <td><em>Pink</em></td>
+                            <td>30%</td>
+                            <td>15%</td>
+                        </tr>
+                        <tr>
+                            <td><u>Purple</u></td>
+                            <td>20%</td>
+                            <td>10%</td>
+                        </tr>
+                        <tr>
+                            <td>Blue</td>
+                            <td>10%</td>
+                            <td>55%</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+
+            <h4>Beach Facts</h4>
+            <p>Did you know that beaches are formed by <del>rivers</del> <ins>wave action</ins> over thousands of years? The sand composition tells the story of <sup>geological</sup> processes.</p>
+
+            <pre>
+Beach Formation Process:
+1. Rock erosion by waves
+2. Sediment transport
+3. Deposition in coastal areas
+4. Continuous reshaping
+            </pre>
+        </article>
+
+        <section>
+            <h3>Visitor Information</h3>
+            <address>
+                <strong>Location:</strong> Paradise Beach<br>
+                <strong>Best Time:</strong> <time datetime="19:00">7:00 PM</time> - <time datetime="20:00">8:00 PM</time><br>
+                <strong>Season:</strong> Year-round sunsets<br>
+                <strong>Parking:</strong> Free beachside parking
+            </address>
+        </section>
+
+        <form>
+            <fieldset>
+                <legend>Rate This Image</legend>
+                <input type="radio" id="excellent" name="rating" value="5">
+                <label for="excellent">Excellent</label><br>
+                <input type="radio" id="good" name="rating" value="4">
+                <label for="good">Good</label><br>
+                <input type="radio" id="average" name="rating" value="3">
+                <label for="average">Average</label><br>
+                <input type="checkbox" id="favorite" name="favorite">
+                <label for="favorite">Add to favorites</label>
+            </fieldset>
+        </form>
+    </main>
+
+    <footer>
+        <hr>
+        <p><kbd>Tip:</kbd> Press <kbd>F11</kbd> for fullscreen viewing</p>
+        <p><small>Beach Photography Tips | <a href="../index.html">Gallery Home</a></small></p>
+    </footer>
+</body>
+</html>
+
+<!-- =================================================================== -->
+<!-- pages/nature3.html - Forest Path Detail Page -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mystical Forest Path - Nature Gallery</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="../index.html">🏠 Gallery Home</a> | 
+            <a href="./nature2.html">← Previous</a> | 
+            <a href="../pages/wildlife1.html" target="_blank">Wildlife Section</a>
+        </nav>
+        <h1>🌲 Mystical Forest Path</h1>
+    </header>
+
+    <main>
+        <figure>
+            <img src="https://picsum.photos/600/400?random=3" alt="Mystical Forest Path" width="600" height="400">
+            <figcaption><strong>Forest Trail</strong> - A path through ancient woods</figcaption>
+        </figure>
+
+        <article>
+            <header>
+                <h2>Journey Into Mystery</h2>
+                <p><em>Follow the winding path</em> through this <strong>enchanted forest</strong> where sunlight filters through the canopy creating a <mark>magical atmosphere</mark>.</p>
+            </header>
+
+            <section>
+                <h3>Forest Ecosystem</h3>
+                <p>This forest represents a <b>complex ecosystem</b> where various species coexist. The <i>dappled light</i> supports different layers of vegetation.</p>
+
+                <h4>Forest Layers</h4>
+                <ol>
+                    <li><strong>Canopy Layer</strong> - Tallest trees forming the roof</li>
+                    <li><em>Understory</em> - Mid-level shrubs and small trees</li>
+                    <li><u>Forest Floor</u> - Ground level with decomposing matter</li>
+                    <li><mark>Root Layer</mark> - Underground network</li>
+                </ol>
+
+                <h5>Wildlife Inhabitants</h5>
+                <ul>
+                    <li>Various bird species including <strong>woodpeckers</strong></li>
+                    <li>Small mammals like <em>squirrels</em> and <i>chipmunks</i></li>
+                    <li>Insects providing <u>pollination services</u></li>
+                    <li><del>Large predators</del> <ins>Occasional deer sightings</ins></li>
+                </ul>
+            </section>
+
+            <aside>
+                <h4>Photography Challenge</h4>
+                <p>Capturing forest scenes requires understanding of:</p>
+                <dl>
+                    <dt><strong>Light Management:</strong></dt>
+                    <dd>Dealing with high contrast between bright and dark areas</dd>
+                    <dt><em>Composition:</em></dt>
+                    <dd>Using leading lines like this path to guide the viewer's eye</dd>
+                    <dt><u>Depth of Field:</u></dt>
+                    <dd>Balancing foreground and background sharpness</dd>
+                </dl>
+            </aside>
+
+            <blockquote cite="https://example.com/forest-quotes">
+                <p><i>"The clearest way into the Universe is through a forest wilderness."</i></p>
+                <cite>~ John Muir</cite>
+            </blockquote>
+
+            <section>
+                <h4>Technical Information</h4>
+                <table border="1" cellpadding="5" cellspacing="0">
+                    <caption>Camera Settings Used</caption>
+                    <thead>
+                        <tr>
+                            <th scope="col">Setting</th>
+                            <th scope="col">Value</th>
+                            <th scope="col">Purpose</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">Aperture</th>
+                            <td>f/8</td>
+                            <td>Optimal sharpness</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Shutter Speed</th>
+                            <td>1/60<sup>th</sup> sec</td>
+                            <td>Handheld stability</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">ISO</th>
+                            <td>400</td>
+                            <td>Low-light compensation</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+        </article>
+
+        <section>
+            <h3>Forest Conservation</h3>
+            <p>Protecting our forests is crucial for:</p>
+            <ul>
+                <li><strong>Climate regulation</strong> through carbon absorption</li>
+                <li><em>Biodiversity preservation</em> for countless species</li>
+                <li><i>Water cycle maintenance</i> and soil protection</li>
+                <li><mark>Recreational opportunities</mark> for future generations</li>
+            </ul>
+
+            <form action="#" method="get">
+                <fieldset>
+                    <legend>Forest Trail Feedback</legend>
+                    <label for="trail-condition">Trail Condition:</label>
+                    <select id="trail-condition" name="condition">
+                        <option value="">Select condition</option>
+                        <option value="excellent">Excellent</option>
+                        <option value="good">Good</option>
+                        <option value="fair">Fair</option>
+                        <option value="poor">Poor</option>
+                    </select><br><br>
+                    
+                    <label for="difficulty">Difficulty Level:</label><br>
+                    <input type="range" id="difficulty" name="difficulty" min="1" max="5"><br>
+                    <small>1 = Easy, 5 = Very Difficult</small><br><br>
+                    
+                    <input type="submit" value="Submit Review">
+                </fieldset>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <hr>
+        <address>
+            <p><strong>Trail Information:</strong><br>
+            Difficulty: Moderate<br>
+            Length: 2.5 miles<br>
+            Estimated Time: <time datetime="PT1H30M">1.5 hours</time></p>
+        </address>
+        
+        <p><small>Forest Photography Series | 
+        <a href="../index.html">Return to Main Gallery</a> | 
+        <a href="mailto:info@gallery.com">Contact Us</a></small></p>
+        
+        <p><samp>Image ID: FOREST_001</samp> | <var>x</var> = forest_depth_value</p>
+        <p><code>GPS Coordinates: 40.7128° N, 74.0060° W</code></p>
+    </footer>
+</body>
+</html>
+
+<!-- create the other pages by yourself -->
