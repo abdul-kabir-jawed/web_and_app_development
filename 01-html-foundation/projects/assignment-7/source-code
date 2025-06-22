@@ -1,0 +1,550 @@
+<!--Register code-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Form - Stairs to Success</title>
+</head>
+<body>
+    <h1>Register Form</h1>
+    <h2>Create Your Account</h2>
+    
+    <form action="#" method="post">
+        <table border="1">
+            <tr>
+                <td><label for="firstName">First Name:</label></td>
+                <td><input type="text" id="firstName" name="firstName" required></td>
+            </tr>
+            <tr>
+                <td><label for="lastName">Last Name:</label></td>
+                <td><input type="text" id="lastName" name="lastName" required></td>
+            </tr>
+            <tr>
+                <td><label for="email">Email:</label></td>
+                <td><input type="email" id="email" name="email" required></td>
+            </tr>
+            <tr>
+                <td><label for="password">Password:</label></td>
+                <td><input type="password" id="password" name="password" required></td>
+            </tr>
+            <tr>
+                <td><label for="confirmPassword">Confirm Password:</label></td>
+                <td><input type="password" id="confirmPassword" name="confirmPassword" required></td>
+            </tr>
+            <tr>
+                <td><label for="phone">Phone Number:</label></td>
+                <td><input type="tel" id="phone" name="phone" required></td>
+            </tr>
+            <tr>
+                <td><label for="dob">Date of Birth:</label></td>
+                <td><input type="date" id="dob" name="dob" required></td>
+            </tr>
+            <tr>
+                <td><label for="gender">Gender:</label></td>
+                <td>
+                    <input type="radio" id="male" name="gender" value="male">
+                    <label for="male">Male</label>
+                    <input type="radio" id="female" name="gender" value="female">
+                    <label for="female">Female</label>
+                    <input type="radio" id="other" name="gender" value="other">
+                    <label for="other">Other</label>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="checkbox" id="terms" name="terms" required>
+                    <label for="terms">I agree to the Terms and Conditions</label>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <button type="submit">Register</button>
+                    <button type="reset">Reset</button>
+                </td>
+            </tr>
+        </table>
+    </form>
+    
+    <hr>
+    <h3>Navigation</h3>
+    <ul>
+        <li><a href="./signin.html">Go to Sign In Form</a></li>
+        <li><a href="./general-info.html">Go to General Information Form</a></li>
+        <li><a href="./contact.html">Go to Contact Form</a></li>
+    </ul>
+    
+    <p>Already have an account? <a href="./signin.html">Sign in here</a></p>
+</body>
+</html>
+
+<!--sign in-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In Form - Stairs to Success</title>
+</head>
+<body>
+    <h1>Sign In Form</h1>
+    <h2>Welcome Back!</h2>
+    
+    <form action="#" method="post">
+        <table border="1">
+            <tr>
+                <td><label for="loginEmail">Email or Username:</label></td>
+                <td><input type="text" id="loginEmail" name="loginEmail" required></td>
+            </tr>
+            <tr>
+                <td><label for="loginPassword">Password:</label></td>
+                <td><input type="password" id="loginPassword" name="loginPassword" required></td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="checkbox" id="rememberMe" name="rememberMe">
+                    <label for="rememberMe">Remember Me</label>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <button type="submit">Sign In</button>
+                    <button type="reset">Clear</button>
+                </td>
+            </tr>
+        </table>
+    </form>
+    
+    <p><a href="#">Forgot your password?</a></p>
+    
+    <hr>
+    <h3>Navigation</h3>
+    <ul>
+        <li><a href="../register.html">Go to Register Form</a></li>
+        <li><a href="../general-info.html">Go to General Information Form</a></li>
+        <li><a href="../contact.html">Go to Contact Form</a></li>
+    </ul>
+    
+    <p>Don't have an account? <a href="../register.html">Register here</a></p>
+</body>
+</html>
+
+<!--general information-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>General Information Form - Stairs to Success</title>
+</head>
+<body>
+    <h1>General Information Form</h1>
+    <h2>Complete Your Profile</h2>
+    
+    <form action="#" method="post" enctype="multipart/form-data">
+        <fieldset>
+            <legend>Personal Information</legend>
+            <table border="1">
+                <tr>
+                    <td><label for="fullName">Full Name:</label></td>
+                    <td><input type="text" id="fullName" name="fullName" required></td>
+                </tr>
+                <tr>
+                    <td><label for="nickname">Nickname:</label></td>
+                    <td><input type="text" id="nickname" name="nickname"></td>
+                </tr>
+                <tr>
+                    <td><label for="age">Age:</label></td>
+                    <td><input type="number" id="age" name="age" min="1" max="120" required></td>
+                </tr>
+                <tr>
+                    <td><label for="nationality">Nationality:</label></td>
+                    <td>
+                        <select id="nationality" name="nationality" required>
+                            <option value="">Select Nationality</option>
+                            <option value="pakistani">Pakistani</option>
+                            <option value="indian">Indian</option>
+                            <option value="american">American</option>
+                            <option value="british">British</option>
+                            <option value="canadian">Canadian</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="maritalStatus">Marital Status:</label></td>
+                    <td>
+                        <input type="radio" id="single" name="maritalStatus" value="single">
+                        <label for="single">Single</label>
+                        <input type="radio" id="married" name="maritalStatus" value="married">
+                        <label for="married">Married</label>
+                        <input type="radio" id="divorced" name="maritalStatus" value="divorced">
+                        <label for="divorced">Divorced</label>
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+        
+        <fieldset>
+            <legend>Contact Details</legend>
+            <table border="1">
+                <tr>
+                    <td><label for="primaryPhone">Primary Phone:</label></td>
+                    <td><input type="tel" id="primaryPhone" name="primaryPhone" required></td>
+                </tr>
+                <tr>
+                    <td><label for="secondaryPhone">Secondary Phone:</label></td>
+                    <td><input type="tel" id="secondaryPhone" name="secondaryPhone"></td>
+                </tr>
+                <tr>
+                    <td><label for="emailAddress">Email Address:</label></td>
+                    <td><input type="email" id="emailAddress" name="emailAddress" required></td>
+                </tr>
+                <tr>
+                    <td><label for="website">Website/Portfolio:</label></td>
+                    <td><input type="url" id="website" name="website" placeholder="https://"></td>
+                </tr>
+            </table>
+        </fieldset>
+        
+        <fieldset>
+            <legend>Address Information</legend>
+            <table border="1">
+                <tr>
+                    <td><label for="streetAddress">Street Address:</label></td>
+                    <td><textarea id="streetAddress" name="streetAddress" rows="3" cols="30" required></textarea></td>
+                </tr>
+                <tr>
+                    <td><label for="city">City:</label></td>
+                    <td><input type="text" id="city" name="city" required></td>
+                </tr>
+                <tr>
+                    <td><label for="state">State/Province:</label></td>
+                    <td><input type="text" id="state" name="state" required></td>
+                </tr>
+                <tr>
+                    <td><label for="postalCode">Postal Code:</label></td>
+                    <td><input type="text" id="postalCode" name="postalCode" required></td>
+                </tr>
+                <tr>
+                    <td><label for="country">Country:</label></td>
+                    <td>
+                        <select id="country" name="country" required>
+                            <option value="">Select Country</option>
+                            <option value="pakistan">Pakistan</option>
+                            <option value="india">India</option>
+                            <option value="usa">United States</option>
+                            <option value="uk">United Kingdom</option>
+                            <option value="canada">Canada</option>
+                            <option value="australia">Australia</option>
+                        </select>
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+        
+        <fieldset>
+            <legend>Education & Career</legend>
+            <table border="1">
+                <tr>
+                    <td><label for="education">Highest Education:</label></td>
+                    <td>
+                        <select id="education" name="education" required>
+                            <option value="">Select Education Level</option>
+                            <option value="highschool">High School</option>
+                            <option value="bachelors">Bachelor's Degree</option>
+                            <option value="masters">Master's Degree</option>
+                            <option value="phd">PhD</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="fieldOfStudy">Field of Study:</label></td>
+                    <td><input type="text" id="fieldOfStudy" name="fieldOfStudy"></td>
+                </tr>
+                <tr>
+                    <td><label for="occupation">Current Occupation:</label></td>
+                    <td><input type="text" id="occupation" name="occupation"></td>
+                </tr>
+                <tr>
+                    <td><label for="company">Company/Organization:</label></td>
+                    <td><input type="text" id="company" name="company"></td>
+                </tr>
+                <tr>
+                    <td><label for="experience">Years of Experience:</label></td>
+                    <td><input type="number" id="experience" name="experience" min="0" max="50"></td>
+                </tr>
+            </table>
+        </fieldset>
+        
+        <fieldset>
+            <legend>Additional Information</legend>
+            <table border="1">
+                <tr>
+                    <td><label for="skills">Skills (comma-separated):</label></td>
+                    <td><textarea id="skills" name="skills" rows="3" cols="30" placeholder="e.g., HTML, CSS, JavaScript, Python"></textarea></td>
+                </tr>
+                <tr>
+                    <td><label for="languages">Languages Known:</label></td>
+                    <td>
+                        <input type="checkbox" id="english" name="languages" value="english">
+                        <label for="english">English</label>
+                        <input type="checkbox" id="urdu" name="languages" value="urdu">
+                        <label for="urdu">Urdu</label>
+                        <input type="checkbox" id="hindi" name="languages" value="hindi">
+                        <label for="hindi">Hindi</label>
+                        <input type="checkbox" id="arabic" name="languages" value="arabic">
+                        <label for="arabic">Arabic</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="hobbies">Hobbies & Interests:</label></td>
+                    <td><textarea id="hobbies" name="hobbies" rows="3" cols="30"></textarea></td>
+                </tr>
+                <tr>
+                    <td><label for="profilePicture">Profile Picture:</label></td>
+                    <td><input type="file" id="profilePicture" name="profilePicture" accept="image/*"></td>
+                </tr>
+                <tr>
+                    <td><label for="resume">Upload Resume:</label></td>
+                    <td><input type="file" id="resume" name="resume" accept=".pdf,.doc,.docx"></td>
+                </tr>
+                <tr>
+                    <td><label for="bio">Short Bio:</label></td>
+                    <td><textarea id="bio" name="bio" rows="5" cols="30" placeholder="Tell us about yourself..."></textarea></td>
+                </tr>
+            </table>
+        </fieldset>
+        
+        <fieldset>
+            <legend>Preferences</legend>
+            <table border="1">
+                <tr>
+                    <td><label for="newsletter">Subscribe to Newsletter:</label></td>
+                    <td>
+                        <input type="radio" id="newsletterYes" name="newsletter" value="yes">
+                        <label for="newsletterYes">Yes</label>
+                        <input type="radio" id="newsletterNo" name="newsletter" value="no">
+                        <label for="newsletterNo">No</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="notifications">Email Notifications:</label></td>
+                    <td>
+                        <input type="checkbox" id="promotions" name="notifications" value="promotions">
+                        <label for="promotions">Promotions</label>
+                        <input type="checkbox" id="updates" name="notifications" value="updates">
+                        <label for="updates">Updates</label>
+                        <input type="checkbox" id="reminders" name="notifications" value="reminders">
+                        <label for="reminders">Reminders</label>
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+        
+        <br>
+        <button type="submit">Save Information</button>
+        <button type="reset">Reset Form</button>
+    </form>
+    
+    <hr>
+    <h3>Navigation</h3>
+    <ul>
+        <li><a href="../../register.html">Go to Register Form</a></li>
+        <li><a href="../../signin.html">Go to Sign In Form</a></li>
+        <li><a href="../../contact.html">Go to Contact Form</a></li>
+    </ul>
+</body>
+</html>
+
+<!--contact form -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form - Stairs to Success</title>
+</head>
+<body>
+    <h1>Contact Form</h1>
+    <h2>Get in Touch With Us</h2>
+    
+    <form action="#" method="post">
+        <fieldset>
+            <legend>Contact Information</legend>
+            <table border="1">
+                <tr>
+                    <td><label for="contactName">Full Name:</label></td>
+                    <td><input type="text" id="contactName" name="contactName" required></td>
+                </tr>
+                <tr>
+                    <td><label for="contactEmail">Email Address:</label></td>
+                    <td><input type="email" id="contactEmail" name="contactEmail" required></td>
+                </tr>
+                <tr>
+                    <td><label for="contactPhone">Phone Number:</label></td>
+                    <td><input type="tel" id="contactPhone" name="contactPhone"></td>
+                </tr>
+                <tr>
+                    <td><label for="contactCompany">Company/Organization:</label></td>
+                    <td><input type="text" id="contactCompany" name="contactCompany"></td>
+                </tr>
+            </table>
+        </fieldset>
+        
+        <fieldset>
+            <legend>Inquiry Details</legend>
+            <table border="1">
+                <tr>
+                    <td><label for="inquiryType">Type of Inquiry:</label></td>
+                    <td>
+                        <select id="inquiryType" name="inquiryType" required>
+                            <option value="">Select Inquiry Type</option>
+                            <option value="general">General Information</option>
+                            <option value="support">Technical Support</option>
+                            <option value="sales">Sales Inquiry</option>
+                            <option value="partnership">Partnership</option>
+                            <option value="complaint">Complaint</option>
+                            <option value="suggestion">Suggestion</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="priority">Priority Level:</label></td>
+                    <td>
+                        <input type="radio" id="lowPriority" name="priority" value="low">
+                        <label for="lowPriority">Low</label>
+                        <input type="radio" id="mediumPriority" name="priority" value="medium" checked>
+                        <label for="mediumPriority">Medium</label>
+                        <input type="radio" id="highPriority" name="priority" value="high">
+                        <label for="highPriority">High</label>
+                        <input type="radio" id="urgentPriority" name="priority" value="urgent">
+                        <label for="urgentPriority">Urgent</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="subject">Subject:</label></td>
+                    <td><input type="text" id="subject" name="subject" required maxlength="100"></td>
+                </tr>
+                <tr>
+                    <td><label for="message">Message:</label></td>
+                    <td><textarea id="message" name="message" rows="8" cols="50" required placeholder="Please describe your inquiry in detail..."></textarea></td>
+                </tr>
+            </table>
+        </fieldset>
+        
+        <fieldset>
+            <legend>Additional Information</legend>
+            <table border="1">
+                <tr>
+                    <td><label for="preferredContact">Preferred Contact Method:</label></td>
+                    <td>
+                        <input type="checkbox" id="contactEmail" name="preferredContact" value="email" checked>
+                        <label for="contactEmail">Email</label>
+                        <input type="checkbox" id="contactPhone" name="preferredContact" value="phone">
+                        <label for="contactPhone">Phone</label>
+                        <input type="checkbox" id="contactSms" name="preferredContact" value="sms">
+                        <label for="contactSms">SMS</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="bestTime">Best Time to Contact:</label></td>
+                    <td>
+                        <select id="bestTime" name="bestTime">
+                            <option value="">Select Time</option>
+                            <option value="morning">Morning (9 AM - 12 PM)</option>
+                            <option value="afternoon">Afternoon (12 PM - 5 PM)</option>
+                            <option value="evening">Evening (5 PM - 8 PM)</option>
+                            <option value="anytime">Anytime</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="hearAboutUs">How did you hear about us?</label></td>
+                    <td>
+                        <select id="hearAboutUs" name="hearAboutUs">
+                            <option value="">Select Option</option>
+                            <option value="search">Search Engine</option>
+                            <option value="social">Social Media</option>
+                            <option value="friend">Friend/Referral</option>
+                            <option value="advertisement">Advertisement</option>
+                            <option value="website">Website</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="attachment">Attach File (Optional):</label></td>
+                    <td><input type="file" id="attachment" name="attachment" accept=".pdf,.doc,.docx,.txt,.jpg,.png,.gif"></td>
+                </tr>
+            </table>
+        </fieldset>
+        
+        <fieldset>
+            <legend>Feedback</legend>
+            <table border="1">
+                <tr>
+                    <td><label for="rating">Rate Our Website:</label></td>
+                    <td>
+                        <input type="radio" id="rating1" name="rating" value="1">
+                        <label for="rating1">1 (Poor)</label>
+                        <input type="radio" id="rating2" name="rating" value="2">
+                        <label for="rating2">2</label>
+                        <input type="radio" id="rating3" name="rating" value="3">
+                        <label for="rating3">3 (Average)</label>
+                        <input type="radio" id="rating4" name="rating" value="4">
+                        <label for="rating4">4</label>
+                        <input type="radio" id="rating5" name="rating" value="5">
+                        <label for="rating5">5 (Excellent)</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="improvements">Suggestions for Improvement:</label></td>
+                    <td><textarea id="improvements" name="improvements" rows="4" cols="50" placeholder="How can we improve our services?"></textarea></td>
+                </tr>
+            </table>
+        </fieldset>
+        
+        <br>
+        <input type="checkbox" id="agreement" name="agreement" required>
+        <label for="agreement">I agree that the information provided is accurate and I consent to being contacted regarding my inquiry.</label>
+        
+        <br><br>
+        <button type="submit">Send Message</button>
+        <button type="reset">Clear Form</button>
+    </form>
+    
+    <hr>
+    <h3>Contact Information</h3>
+    <table border="1">
+        <tr>
+            <td><strong>Address:</strong></td>
+            <td>123 Success Street, Learning City, Education State 12345</td>
+        </tr>
+        <tr>
+            <td><strong>Phone:</strong></td>
+            <td>+1 (555) 123-4567</td>
+        </tr>
+        <tr>
+            <td><strong>Email:</strong></td>
+            <td>info@stairstosuccess.com</td>
+        </tr>
+        <tr>
+            <td><strong>Business Hours:</strong></td>
+            <td>Monday - Friday: 9:00 AM - 6:00 PM</td>
+        </tr>
+    </table>
+    
+    <hr>
+    <h3>Navigation</h3>
+    <ul>
+        <li><a href="../../../register.html">Go to Register Form</a></li>
+        <li><a href="../../../signin.html">Go to Sign In Form</a></li>
+        <li><a href="../../../general-info.html">Go to General Information Form</a></li>
+    </ul>
+</body>
+</html>
+
