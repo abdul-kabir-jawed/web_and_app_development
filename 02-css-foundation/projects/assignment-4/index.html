@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delicious Recipe Book - Home</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1 class="logo">🍳 Recipe Book</h1>
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li><a href="index.html" class="nav-link active">Home</a></li>
+                    <li><a href="breakfast.html" class="nav-link">Breakfast</a></li>
+                    <li><a href="lunch.html" class="nav-link">Lunch</a></li>
+                    <li><a href="dinner.html" class="nav-link">Dinner</a></li>
+                    <li><a href="desserts.html" class="nav-link">Desserts</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h2 class="hero-title">Welcome to Our Recipe Collection</h2>
+                    <p class="hero-description">Discover delicious recipes from around the world, carefully curated and tested in our kitchen.</p>
+                    <a href="#featured" class="cta-button">Explore Recipes</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Featured Recipes -->
+        <section id="featured" class="featured-recipes">
+            <div class="container">
+                <h2 class="section-title">Featured Recipes</h2>
+                <div class="recipe-grid">
+                    <div class="recipe-card featured">
+                        <div class="recipe-image">
+                            <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ca4b?w=400&h=300&fit=crop" alt="Margherita Pizza" />
+                        </div>
+                        <div class="recipe-content">
+                            <h3 class="recipe-title">Classic Margherita Pizza</h3>
+                            <p class="recipe-description">Authentic Italian pizza with fresh tomatoes, mozzarella, and basil.</p>
+                            <div class="recipe-meta">
+                                <span class="cook-time">⏱️ 45 min</span>
+                                <span class="difficulty">👨‍🍳 Medium</span>
+                            </div>
+                            <a href="pizza-recipe.html" class="recipe-button">View Recipe</a>
+                        </div>
+                    </div>
+
+                    <div class="recipe-card">
+                        <div class="recipe-image">
+                            <img src="https://images.unsplash.com/photo-1551963831-b3b1ca40c98e?w=400&h=300&fit=crop" alt="Breakfast Bowl" />
+                        </div>
+                        <div class="recipe-content">
+                            <h3 class="recipe-title">Healthy Breakfast Bowl</h3>
+                            <p class="recipe-description">Nutritious bowl with granola, fresh fruits, and yogurt.</p>
+                            <div class="recipe-meta">
+                                <span class="cook-time">⏱️ 10 min</span>
+                                <span class="difficulty">👨‍🍳 Easy</span>
+                            </div>
+                            <a href="breakfast-bowl-recipe.html" class="recipe-button">View Recipe</a>
+                        </div>
+                    </div>
+
+                    <div class="recipe-card">
+                        <div class="recipe-image">
+                            <img src="https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?w=400&h=300&fit=crop" alt="Pancakes" />
+                        </div>
+                        <div class="recipe-content">
+                            <h3 class="recipe-title">Fluffy Pancakes</h3>
+                            <p class="recipe-description">Perfect weekend breakfast with light and fluffy texture.</p>
+                            <div class="recipe-meta">
+                                <span class="cook-time">⏱️ 20 min</span>
+                                <span class="difficulty">👨‍🍳 Easy</span>
+                            </div>
+                            <a href="pancakes-recipe.html" class="recipe-button">View Recipe</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Recipe Categories -->
+        <section class="categories">
+            <div class="container">
+                <h2 class="section-title">Recipe Categories</h2>
+                <div class="category-grid">
+                    <div class="category-card breakfast">
+                        <div class="category-icon">🥞</div>
+                        <h3 class="category-title">Breakfast</h3>
+                        <p class="category-description">Start your day right with our morning favorites</p>
+                        <span class="recipe-count">12 recipes</span>
+                        <a href="breakfast.html" class="category-button">View All</a>
+                    </div>
+
+                    <div class="category-card lunch">
+                        <div class="category-icon">🥗</div>
+                        <h3 class="category-title">Lunch</h3>
+                        <p class="category-description">Satisfying midday meals and light bites</p>
+                        <span class="recipe-count">15 recipes</span>
+                        <a href="lunch.html" class="category-button">View All</a>
+                    </div>
+
+                    <div class="category-card dinner">
+                        <div class="category-icon">🍝</div>
+                        <h3 class="category-title">Dinner</h3>
+                        <p class="category-description">Hearty evening meals for the whole family</p>
+                        <span class="recipe-count">20 recipes</span>
+                        <a href="dinner.html" class="category-button">View All</a>
+                    </div>
+
+                    <div class="category-card dessert">
+                        <div class="category-icon">🍰</div>
+                        <h3 class="category-title">Desserts</h3>
+                        <p class="category-description">Sweet treats and indulgent endings</p>
+                        <span class="recipe-count">8 recipes</span>
+                        <a href="desserts.html" class="category-button">View All</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sample Recipe Page Content -->
+        <section class="sample-recipe" id="sample">
+            <div class="container">
+                <h2 class="section-title">Sample Recipe: Classic Margherita Pizza</h2>
+                <div class="recipe-detail">
+                    <div class="recipe-detail-image">
+                        <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ca4b?w=600&h=400&fit=crop" alt="Margherita Pizza">
+                    </div>
+                    <div class="recipe-detail-content">
+                        <div class="recipe-meta-detail">
+                            <span class="meta-item">⏱️ Cook Time: 45 minutes</span>
+                            <span class="meta-item">👨‍🍳 Difficulty: Medium</span>
+                            <span class="meta-item">🍽️ Serves: 4 people</span>
+                        </div>
+                        
+                        <div class="recipe-sections">
+                            <div class="ingredients-section">
+                                <h3>Ingredients</h3>
+                                <ul class="ingredients-list">
+                                    <li>2 cups all-purpose flour</li>
+                                    <li>1 cup warm water</li>
+                                    <li>1 tsp active dry yeast</li>
+                                    <li>1 tsp salt</li>
+                                    <li>2 tbsp olive oil</li>
+                                    <li>1 cup tomato sauce</li>
+                                    <li>8 oz fresh mozzarella cheese</li>
+                                    <li>Fresh basil leaves</li>
+                                    <li>Extra olive oil for drizzling</li>
+                                </ul>
+                            </div>
+                            
+                            <div class="instructions-section">
+                                <h3>Instructions</h3>
+                                <ol class="instructions-list">
+                                    <li>Mix warm water and yeast in a small bowl. Let sit for 5 minutes until foamy.</li>
+                                    <li>Combine flour and salt in a large bowl.</li>
+                                    <li>Add yeast mixture and olive oil to flour. Mix until dough forms.</li>
+                                    <li>Knead dough on floured surface for 8-10 minutes until smooth.</li>
+                                    <li>Place in oiled bowl, cover, and let rise for 1 hour.</li>
+                                    <li>Preheat oven to 500°F (260°C).</li>
+                                    <li>Roll out dough on floured surface to desired thickness.</li>
+                                    <li>Transfer to pizza stone or baking sheet.</li>
+                                    <li>Spread tomato sauce evenly, leaving border for crust.</li>
+                                    <li>Add torn mozzarella pieces on top.</li>
+                                    <li>Bake for 12-15 minutes until crust is golden and cheese is bubbly.</li>
+                                    <li>Remove from oven and top with fresh basil leaves.</li>
+                                    <li>Drizzle with olive oil and serve immediately.</li>
+                                </ol>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Recipe Book</h3>
+                    <p>Your ultimate destination for delicious recipes and cooking inspiration.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="breakfast.html">Breakfast</a></li>
+                        <li><a href="lunch.html">Lunch</a></li>
+                        <li><a href="dinner.html">Dinner</a></li>
+                        <li><a href="desserts.html">Desserts</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Follow Us</h4>
+                    <div class="social-links">
+                        <a href="#" aria-label="Instagram">📷</a>
+                        <a href="#" aria-label="Facebook">📘</a>
+                        <a href="#" aria-label="Twitter">🐦</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Recipe Book. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
