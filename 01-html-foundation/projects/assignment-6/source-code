@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chessboard</title>
+</head>
+<body>
+    <h1 align="center">Chessboard</h1>
+    <p align="center">A <strong>chessboard</strong> is an <strong>8×8 grid</strong> used in the game of <strong>chess</strong>, consisting of <strong>64 squares</strong> that alternate between <em>light</em> and <em>dark</em> colors. Each player begins with <strong>16 pieces</strong>, including a <strong>king, queen, bishops, knights, rooks</strong>, and <em>pawns</em>, all strategically placed on the board. The positioning of pieces and mastery of <strong>openings, middle game tactics</strong>, and <strong>endgame strategies</strong> are crucial for victory. The board itself serves as a <strong>battlefield</strong>, where <em>logic</em>, <em>planning</em>, and <em>foresight</em> determine the outcome of the game.</p>
+    <h2 align="center">Chessboard Visualization</h2>
+
+    <p align="center">Here is a visualization of a chessboard:</p>
+    <hr>
+    <table border="20" align="center" width="400px" height="400px">
+        <tr>
+            <td bgcolor="white"> </td>
+            <td bgcolor="black"> </td>
+            <td bgcolor="white"> </td>
+            <td bgcolor="black"> </td>
+            <td bgcolor="white"> </td>
+            <td bgcolor="black"> </td>
+            <td bgcolor="white"> </td>
+            <td bgcolor="black"> </td>
+        </tr>
+        <tr>
+            <td bgcolor="black"> </td>
+            <td bgcolor="white"> </td>
+            <td bgcolor="black"> </td>
+            <td bgcolor="white"> </td>
+            <td bgcolor="black"> </td>
+            <td bgcolor="white"> </td>
+            <td bgcolor="black"> </td>
+            <td bgcolor="white"> </td>
+        </tr>
+        <tr>
+            <td bgcolor="white"> </td>
+            <td bgcolor="black"> </td>
+            <td bgcolor="white"> </td>
+            <td bgcolor="black"> </td>
+            <td bgcolor="white"> </td>
+            <td bgcolor="black"> </td>
+            <td bgcolor="white"> </td>
+            <td bgcolor="black"> </td>
+        </tr>
+        <tr>
+            <td bgcolor="black"> </td>
+            <td bgcolor="white"> </td>
+            <td bgcolor="black"> </td>
+            <td bgcolor="white"> </td>
+            <td bgcolor="black"> </td>
+            <td bgcolor="white"> </td>
+            <td bgcolor="black"> </td>
+            <td bgcolor="white"> </td>
+        </tr>
+        <tr>
+            <td bgcolor="white"> </td>
+            <td bgcolor="black"> </td>
+            <td bgcolor="white"> </td>
+            <td bgcolor="black"> </td>
+            <td bgcolor="white"> </td>
+            <td bgcolor="black"> </td>
+            <td bgcolor="white"> </td>
+            <td bgcolor="black"> </td>
+        </tr>
+        <tr>
+            <td bgcolor="black"> </td>
+            <td bgcolor="white"> </td>
+            <td bgcolor="black"> </td>
+            <td bgcolor="white"> </td>
+            <td bgcolor="black"> </td>
+            <td bgcolor="white"> </td>
+            <td bgcolor="black"> </td>
+            <td bgcolor="white"> </td>
+        </tr>
+        <tr>
+            <td bgcolor="white"> </td>
+            <td bgcolor="black"> </td>
+            <td bgcolor="white"> </td>
+            <td bgcolor="black"> </td>
+            <td bgcolor="white"> </td>
+            <td bgcolor="black"> </td>
+            <td bgcolor="white"> </td>
+            <td bgcolor="black"> </td>
+        </tr>
+        <tr>
+            <td bgcolor="black"> </td>
+            <td bgcolor="white"> </td>
+            <td bgcolor="black"> </td>
+            <td bgcolor="white"> </td>
+            <td bgcolor="black"> </td>
+            <td bgcolor="white"> </td>
+            <td bgcolor="black"> </td>
+            <td bgcolor="white"> </td>
+        </tr>
+       
+    </table>
+    </body>
+</html>
+
+<!--periodic table-->
+<!DOCTYPE html>
+<head>
+    <title>Periodic Table</title>
+</head>
+<body>
+    <h1 align="center">Periodic Table</h1>
+
+    <p align="center">The <strong>Periodic Table</strong> is a systematic arrangement of all known chemical elements,
+        organized by their <b>atomic number</b>, <b>electron configuration</b>, and <b>recurring chemical properties</b>.
+        Elements are grouped into categories such as <strong>alkali metals</strong>, <i>alkaline earth metals</i>,
+        <strong>transition metals</strong>, <i>metalloids</i>, and <strong>noble gases</strong>.
+        The table is structured in <b>periods (rows)</b> and <b>groups (columns)</b>, where elements in the same group share similar
+        chemical behaviors. The discovery of the periodic table by <em>Dmitri Mendeleev</em> revolutionized chemistry,
+        allowing scientists to predict the properties of yet-to-be-discovered elements.</p>
+        <hr>
+            <table align="center">
+                <tr>
+                    <td bgcolor="00316E"><abbr title="Hydrogen"><sup>1</sup>H</abbr></td>
+                    <td colspan="17"></td>
+                    <td bgcolor="#915F6D"><abbr title="Helium"><sup>2</sup>He</abbr></td>
+                </tr>
+                <tr>
+                    <td bgcolor="#00563B"><abbr title="Lithium"><sup>3</sup>Li</abbr></td>
+                    <td bgcolor="#EE4B2B"><abbr title="Beryllium"><sup>4</sup>Be</abbr></td>
+                    <td colspan="11"></td>
+                    <td bgcolor="#996515"><abbr title="Boron"><sup>5</sup>B</abbr></td>
+                    <td bgcolor="00316E"><abbr title="Carbon"><sup>6</sup>C</abbr></td>
+                    <td bgcolor="00316E"><abbr title="Nitrogen"><sup>7</sup>N</abbr></td>
+                    <td bgcolor="00316E"><abbr title="Oxygen"><sup>8</sup>O</abbr></td>
+                    <td bgcolor="00316E"><abbr title="Fluorine"><sup>9</sup>F</abbr></td>
+                    <td bgcolor="#915F6D"><abbr title="Neon"><sup>10</sup>Ne</abbr></td>
+                </tr>
+                <tr>
+                    <td bgcolor="#00563B"><abbr title="Sodium"><sup>11</sup>Na</abbr></td>
+                    <td bgcolor="#EE4B2B"><abbr title="Magnesium"><sup>12</sup>Mg</abbr></td>
+                    <td colspan="11"></td>
+                    <td bgcolor="#355E3B"><abbr title="Aluminum"><sup>13</sup>Al</abbr></td>
+                    <td bgcolor="#996515"><abbr title="Silicon"><sup>14</sup>Si</abbr></td>
+                    <td bgcolor="00316E"><abbr title="Phosphorus"><sup>15</sup>P</abbr></td>
+                    <td bgcolor="00316E"><abbr title="Sulfur"><sup>16</sup>S</abbr></td>
+                    <td bgcolor="00316E"><abbr title="Chlorine"><sup>17</sup>Cl</abbr></td>
+                    <td bgcolor="#915F6D"><abbr title="Argon"><sup>18</sup>Ar</abbr></td>
+                </tr>
+                <tr>
+                    <td bgcolor="#00563B"><abbr title="Potassium"><sup>19</sup>K</abbr></td>
+                    <td bgcolor="#EE4B2B"><abbr title="Calcium"><sup>20</sup>Ca</abbr></td>
+                    <td bgcolor="#CF9FFF"><abbr title="Scandium"><sup>21</sup>Sc</abbr></td>
+                    <td colspan="1"> </td>
+                    <td bgcolor="#CF9FFF"><abbr title="Titanium"><sup>22</sup>Ti</abbr></td>
+                    <td bgcolor="#CF9FFF"><abbr title="Vanadium"><sup>23</sup>V</abbr></td>
+                    <td bgcolor="#CF9FFF"><abbr title="Chromium"><sup>24</sup>Cr</abbr></td>
+                    <td bgcolor="#CF9FFF"><abbr title="Manganese"><sup>25</sup>Mn</abbr></td>
+                    <td bgcolor="#CF9FFF"><abbr title="Iron"><sup>26</sup>Fe</abbr></td>
+                    <td bgcolor="#CF9FFF"><abbr title="Cobalt"><sup>27</sup>Co</abbr></td>
+                    <td bgcolor="#CF9FFF"><abbr title="Nickel"><sup>28</sup>Ni</abbr></td>
+                    <td bgcolor="#CF9FFF"><abbr title="Copper"><sup>29</sup>Cu</abbr></td>
+                    <td bgcolor="#CF9FFF"><abbr title="Zinc"><sup>30</sup>Zn</abbr></td>
+                    <td bgcolor="#355E3B"><abbr title="Gallium"><sup>31</sup>Ga</abbr></td>
+                    <td bgcolor="#996515"><abbr title="Germanium"><sup>32</sup>Ge</abbr></td>
+                    <td bgcolor="#996515"><abbr title="Arsenic"><sup>33</sup>As</abbr></td>
+                    <td bgcolor="00316E"><abbr title="Selenium"><sup>34</sup>Se</abbr></td>
+                    <td bgcolor="00316E"><abbr title="Bromine"><sup>35</sup>Br</abbr></td>
+                    <td bgcolor="#915F6D"><abbr title="Krypton"><sup>36</sup>Kr</abbr></td>
+                </tr>
+                <tr>
+                    <td bgcolor="#00563B"><abbr title="Rubidium"><sup>37</sup>Rb</abbr></td>
+                    <td bgcolor="#EE4B2B"><abbr title="Strontium"><sup>38</sup>Sr</abbr></td>
+                    <td bgcolor="#CF9FFF"><abbr title="Yttrium"><sup>39</sup>Y</abbr></td>
+                    <td colspan="1"> </td>
+                    <td bgcolor="#CF9FFF"><abbr title="Zirconium"><sup>40</sup>Zr</abbr></td>
+                    <td bgcolor="#CF9FFF"><abbr title="Neobium"><sup>41</sup>Nb</abbr></td>
+                    <td bgcolor="#CF9FFF"><abbr title="Molybdenum"><sup>42</sup>Mo</abbr></td>
+                    <td bgcolor="#CF9FFF"><abbr title="Technelium"><sup>43</sup>Tc</abbr></td>
+                    <td bgcolor="#CF9FFF"><abbr title="Ruthenium"><sup>44</sup>Ru</abbr></td>
+                    <td bgcolor="#CF9FFF"><abbr title="Rhodium"><sup>45</sup>Rh</abbr></td>
+                    <td bgcolor="#CF9FFF"><abbr title="Palladium"><sup>46</sup>Pd</abbr></td>
+                    <td bgcolor="#CF9FFF"><abbr title="Silver"><sup>47</sup>Ag</abbr></td>
+                    <td bgcolor="#CF9FFF"><abbr title="Cadmium"><sup>48</sup>Cd</abbr></td>
+                    <td bgcolor="#355E3B"><abbr title="Indium"><sup>49</sup>In</abbr></td>
+                    <td bgcolor="#355E3B"><abbr title="Tin"><sup>50</sup>Sn</abbr></td>
+                    <td bgcolor="#996515"><abbr title="Antimony"><sup>51</sup>Sb</abbr></td>
+                    <td bgcolor="#996515"><abbr title="Tellurium"><sup>52</sup>Te</abbr></td>
+                    <td bgcolor="00316E"><abbr title="Iodine"><sup>53</sup>I</abbr></td>
+                    <td bgcolor="#915F6D"><abbr title="Xenon"><sup>54</sup>Xe</abbr></td>
+                </tr>
+                <tr>
+                    <td bgcolor="#00563B"><abbr title="Caesium"><sup>55</sup>Cs</abbr></td>
+                    <td bgcolor="#EE4B2B"><abbr title="Bareum"><sup>56</sup>Ba</abbr></td>
+                    <td bgcolor="2E5984"><abbr title="Lanthanum"><sup>57</sup>La</abbr></td>
+                    <td colspan="1"> </td>
+                    <td bgcolor="#CF9FFF"><abbr title="Hafnium"><sup>72</sup>Hf</abbr></td>
+                    <td bgcolor="#CF9FFF"><abbr title="Tantalum"><sup>73</sup>Ta</abbr></td>
+                    <td bgcolor="#CF9FFF"><abbr title="Tungsten"><sup>74</sup>W</abbr></td>
+                    <td bgcolor="#CF9FFF"><abbr title="Rhenium"><sup>75</sup>Re</abbr></td>
+                    <td bgcolor="#CF9FFF"><abbr title="Osmium"><sup>76</sup>Os</abbr></td>
+                    <td bgcolor="#CF9FFF"><abbr title="Iridium"><sup>77</sup>Ir</abbr></td>
+                    <td bgcolor="#CF9FFF"><abbr title="Platinum"><sup>78</sup>Pt</abbr></td>
+                    <td bgcolor="#CF9FFF"><abbr title="Gold"><sup>79</sup>Au</abbr></td>
+                    <td bgcolor="#CF9FFF"><abbr title="Mercury"><sup>80</sup>Hg</abbr></td>
+                    <td bgcolor="#355E3B"><abbr title="Thallium"><sup>81</sup>Ti</abbr></td>
+                    <td bgcolor="#355E3B"><abbr title="Lead"><sup>82</sup>Pb</abbr></td>
+                    <td bgcolor="#355E3B"><abbr title="Bismuth"><sup>83</sup>Bi</abbr></td>
+                    <td bgcolor="#355E3B"><abbr title="Polonium"><sup>84</sup>Po</abbr></td>
+                    <td bgcolor="#996515"><abbr title="Astatine"><sup>85</sup>At</abbr></td>
+                    <td bgcolor="#915F6D"><abbr title="Radon"><sup>86</sup>Rn</abbr></td>
+                </tr>
+                <tr>
+                    <td bgcolor="#00563B"><abbr title="Francium"><sup>87</sup>Fr</abbr></td>
+                    <td bgcolor="#EE4B2B"><abbr title="Radium"><sup>88</sup>Ra</abbr></td>
+                    <td bgcolor="#917554"><abbr title="Actinium"><sup>89</sup>Ac</abbr></td>
+                    <td colspan="1"> </td>
+                    <td bgcolor="#CF9FFF"><abbr title="Rutherfordium"><sup>104</sup>Rf</abbr></td>
+                    <td bgcolor="#CF9FFF"><abbr title="Dubnium"><sup>105</sup>Db</abbr></td>
+                    <td bgcolor="#CF9FFF"><abbr title="Seeborigium"><sup>106</sup>Sg</abbr></td>
+                    <td bgcolor="#CF9FFF"><abbr title="Bohrium"><sup>107</sup>Bh</abbr></td>
+                    <td bgcolor="#CF9FFF"><abbr title="Hassium"><sup>108</sup>Hs</abbr></td>
+                    <td bgcolor="#636363"><abbr title="Meitenirium"><sup>109</sup>Mt</abbr></td>
+                    <td bgcolor="#636363"><abbr title="Darmsladtium"><sup>110</sup>Ds</abbr></td>
+                    <td bgcolor="#636363"><abbr title="Roenlgenium"><sup>111</sup>Rg</abbr></td>
+                    <td bgcolor="#636363"><abbr title="Copernicium"><sup>112</sup>Cn</abbr></td>
+                    <td bgcolor="#636363"><abbr title="Nihonium"><sup>113</sup>Nh</abbr></td>
+                    <td bgcolor="#636363"><abbr title="Flerovium"><sup>114</sup>Fl</abbr></td>
+                    <td bgcolor="#636363"><abbr title="Moscovium"><sup>115</sup>Mc</abbr></td>
+                    <td bgcolor="#636363"><abbr title="Livermorium"><sup>116</sup>Lv</abbr></td>
+                    <td bgcolor="#636363"><abbr title="Tennessine"><sup>117</sup>Ts</abbr></td>
+                    <td bgcolor="#915F6D"><abbr title="Oganesson"><sup>118</sup>Og</abbr></td>
+                </tr>
+                <tr>
+                    <td colspan="20"> </td>
+                </tr>
+                <tr>
+                    <td colspan="4"> </td>
+                    <td bgcolor="2E5984"><abbr title="Cerium"><sup>58</sup>Ce</abbr></td>
+                    <td bgcolor="2E5984"><abbr title="Praseodymium"><sup>59</sup>Pr</abbr></td>
+                    <td bgcolor="2E5984"><abbr title="Neodymium"><sup>60</sup>Nd</abbr></td>
+                    <td bgcolor="2E5984"><abbr title="Promelhium"><sup>61</sup>Pm</abbr></td>
+                    <td bgcolor="2E5984"><abbr title="Samarium"><sup>62</sup>Sm</abbr></td>
+                    <td bgcolor="2E5984"><abbr title="Europium"><sup>63</sup>Eu</abbr></td>
+                    <td bgcolor="2E5984"><abbr title="Gadolinium"><sup>64</sup>Gd</abbr></td>
+                    <td bgcolor="2E5984"><abbr title="Terbium"><sup>65</sup>Tb</abbr></td>
+                    <td bgcolor="2E5984"><abbr title="Dysprosium"><sup>66</sup>Dy</abbr></td>
+                    <td bgcolor="2E5984"><abbr title="Holmium"><sup>67</sup>Ho</abbr></td>
+                    <td bgcolor="2E5984"><abbr title="Erbium"><sup>68</sup>Er</abbr></td>
+                    <td bgcolor="2E5984"><abbr title="Thulium"><sup>69</sup>Tm</abbr></td>
+                    <td bgcolor="2E5984"><abbr title="Ytterbium"><sup>70</sup>Yb</abbr></td>
+                    <td bgcolor="2E5984"><abbr title="Lutetium"><sup>71</sup>Lu</abbr></td>
+                </tr>
+                <tr>
+                    <td colspan="4"> </td>
+                    <td bgcolor="#917554"><abbr title="Thorium"><sup>90</sup>Th</abbr></td>
+                    <td bgcolor="#917554"><abbr title="Protactinium"><sup>91</sup>Pa</abbr></td>
+                    <td bgcolor="#917554"><abbr title="Uranium"><sup>92</sup>U</abbr></td>
+                    <td bgcolor="#917554"><abbr title="Neptunium"><sup>93</sup>Np</abbr></td>
+                    <td bgcolor="#917554"><abbr title="Plutonium"><sup>94</sup>Pu</abbr></td>
+                    <td bgcolor="#917554"><abbr title="Americium"><sup>95</sup>Am</abbr></td>
+                    <td bgcolor="#917554"><abbr title="Curium"><sup>96</sup>Cm</abbr></td>
+                    <td bgcolor="#917554"><abbr title="Berkelium"><sup>97</sup>Bk</abbr></td>
+                    <td bgcolor="#917554"><abbr title="Californium"><sup>98</sup>Cf</abbr></td>
+                    <td bgcolor="#917554"><abbr title="Einsteinium"><sup>99</sup>Es</abbr></td>
+                    <td bgcolor="#917554"><abbr title="Fermium"><sup>100</sup>Fm</abbr></td>
+                    <td bgcolor="#917554"><abbr title="Mendelevium"><sup>101</sup>Md</abbr></td>
+                    <td bgcolor="#917554"><abbr title="Nobelium"><sup>102</sup>No</abbr></td>
+                    <td bgcolor="#917554"><abbr title="Lawrencium"><sup>103</sup>Lr</abbr></td>
+                </tr>
+            </table>
+            
+            
+</body>
