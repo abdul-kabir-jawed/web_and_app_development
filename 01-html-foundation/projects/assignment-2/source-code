@@ -1,0 +1,732 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delicious Bites Restaurant - Menu</title>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1>🍽️ Delicious Bites Restaurant</h1>
+        <h2>Authentic Flavors from Around the World</h2>
+        <p><em>"Where every meal is a memorable experience"</em></p>
+        <hr>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <h3>Quick Navigation</h3>
+        <ul>
+            <li><a href="#appetizers">Appetizers</a></li>
+            <li><a href="#main-courses">Main Courses</a></li>
+            <li><a href="#desserts">Desserts</a></li>
+            <li><a href="#beverages">Beverages</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+        </ul>
+        <hr>
+    </nav>
+
+    <!-- Main Menu Content -->
+    <main>
+        <!-- Restaurant Information -->
+        <section>
+            <h2>Welcome to Our Restaurant!</h2>
+            <p>Established in <strong>1995</strong>, we have been serving the finest cuisine for over <mark>28 years</mark>.</p>
+            <p>Our chef, <b>Master Giovanni</b>, brings authentic recipes from <u>Italy, France, and Asia</u>.</p>
+            <blockquote>
+                <p>"Food is not just about eating, it's about experiencing culture, tradition, and love on a plate."</p>
+                <cite>- Chef Giovanni</cite>
+            </blockquote>
+        </section>
+
+        <!-- Appetizers Section -->
+        <section id="appetizers">
+            <h2>🥗 Appetizers & Starters</h2>
+            <p><small>Perfect way to begin your culinary journey</small></p>
+            
+            <ol>
+                <li>
+                    <h4>Mediterranean Mezze Platter - $18.99</h4>
+                    <p>A delightful assortment of Mediterranean favorites including:</p>
+                    <ul>
+                        <li>Hummus with <em>extra virgin olive oil</em></li>
+                        <li>Baba ganoush</li>
+                        <li>Stuffed grape leaves
+                            <ul>
+                                <li>Vegetarian option available</li>
+                                <li>Contains rice and herbs</li>
+                            </ul>
+                        </li>
+                        <li>Kalamata olives</li>
+                        <li>Feta cheese with herbs</li>
+                    </ul>
+                </li>
+
+                <li>
+                    <h4>Crispy Calamari Rings - $14.99</h4>
+                    <p><strong>Fresh squid</strong> rings served with:</p>
+                    <ul>
+                        <li>Marinara sauce</li>
+                        <li>Garlic aioli
+                            <ul>
+                                <li>Made with <sup>organic</sup> garlic</li>
+                                <li>Contains mayonnaise base</li>
+                            </ul>
+                        </li>
+                        <li>Lemon wedges</li>
+                    </ul>
+                </li>
+
+                <li>
+                    <h4>Buffalo Wings - $16.99</h4>
+                    <p>Traditional buffalo wings with choice of:</p>
+                    <ul>
+                        <li>Mild sauce</li>
+                        <li>Medium sauce</li>
+                        <li>Hot sauce
+                            <ul>
+                                <li>⚠️ <strong>Very spicy</strong> - contains Carolina Reaper</li>
+                                <li>Not recommended for children</li>
+                            </ul>
+                        </li>
+                        <li>BBQ sauce</li>
+                    </ul>
+                    <p><sub>Served with celery sticks and blue cheese dip</sub></p>
+                </li>
+
+                <li>
+                    <h4>Asian Spring Rolls - $12.99</h4>
+                    <p>Fresh spring rolls filled with:</p>
+                    <ul>
+                        <li>Crisp vegetables
+                            <ul>
+                                <li>Lettuce</li>
+                                <li>Carrots</li>
+                                <li>Cucumber</li>
+                                <li>Bell peppers</li>
+                            </ul>
+                        </li>
+                        <li>Choice of protein:
+                            <ul>
+                                <li>Grilled chicken</li>
+                                <li>Shrimp</li>
+                                <li>Tofu (vegan option)</li>
+                            </ul>
+                        </li>
+                        <li>Served with peanut dipping sauce</li>
+                    </ul>
+                </li>
+
+                <li>
+                    <h4>Cheese & Charcuterie Board - $22.99</h4>
+                    <p>Artisanal selection featuring:</p>
+                    <ul>
+                        <li>Imported cheeses
+                            <ul>
+                                <li>Aged cheddar from <strong>Vermont</strong></li>
+                                <li>Brie from <em>France</em></li>
+                                <li>Gouda from <u>Netherlands</u></li>
+                            </ul>
+                        </li>
+                        <li>Cured meats
+                            <ul>
+                                <li>Prosciutto di Parma</li>
+                                <li>Salami</li>
+                                <li>Chorizo</li>
+                            </ul>
+                        </li>
+                        <li>Accompaniments
+                            <ul>
+                                <li>Fig jam</li>
+                                <li>Honey</li>
+                                <li>Mixed nuts</li>
+                                <li>Crackers and bread</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+            </ol>
+        </section>
+
+        <!-- Main Courses Section -->
+        <section id="main-courses">
+            <h2>🍖 Main Courses</h2>
+            <p><mark>Our signature dishes prepared with the finest ingredients</mark></p>
+
+            <ol start="6">
+                <li>
+                    <h4>Grilled Ribeye Steak - $32.99</h4>
+                    <p><strong>12oz Prime ribeye</strong> grilled to perfection</p>
+                    <ul>
+                        <li>Temperature options:
+                            <ul>
+                                <li>Rare (cool red center)</li>
+                                <li>Medium rare (warm red center)</li>
+                                <li>Medium (warm pink center)</li>
+                                <li>Medium well (slightly pink center)</li>
+                                <li>Well done (no pink)</li>
+                            </ul>
+                        </li>
+                        <li>Choice of sides:
+                            <ul>
+                                <li>Garlic mashed potatoes</li>
+                                <li>Roasted vegetables
+                                    <ul>
+                                        <li>Seasonal selection</li>
+                                        <li>Includes carrots, broccoli, and bell peppers</li>
+                                    </ul>
+                                </li>
+                                <li>Rice pilaf</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+
+                <li>
+                    <h4>Lobster Thermidor - $42.99</h4>
+                    <p>Whole lobster prepared in classic French style</p>
+                    <ul>
+                        <li>Fresh Atlantic lobster</li>
+                        <li>Creamy sauce with:
+                            <ul>
+                                <li>White wine</li>
+                                <li>Cognac</li>
+                                <li>Heavy cream</li>
+                                <li>Gruyère cheese</li>
+                            </ul>
+                        </li>
+                        <li>Served with butter rice and steamed asparagus</li>
+                    </ul>
+                </li>
+
+                <li>
+                    <h4>Chicken Parmesan - $24.99</h4>
+                    <p>Breaded chicken breast topped with:</p>
+                    <ul>
+                        <li>Marinara sauce
+                            <ul>
+                                <li>Made with San Marzano tomatoes</li>
+                                <li>Fresh basil and oregano</li>
+                            </ul>
+                        </li>
+                        <li>Melted mozzarella cheese</li>
+                        <li>Parmesan cheese</li>
+                        <li>Served over spaghetti
+                            <ul>
+                                <li>Al dente pasta</li>
+                                <li>Garlic bread included</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+
+                <li>
+                    <h4>Salmon Teriyaki - $28.99</h4>
+                    <p><em>Fresh Atlantic salmon</em> glazed with house teriyaki</p>
+                    <ul>
+                        <li>Grilled to perfection</li>
+                        <li>Teriyaki glaze made with:
+                            <ul>
+                                <li>Soy sauce</li>
+                                <li>Mirin</li>
+                                <li>Brown sugar</li>
+                                <li>Fresh ginger</li>
+                            </ul>
+                        </li>
+                        <li>Served with jasmine rice and stir-fried vegetables</li>
+                    </ul>
+                </li>
+
+                <li>
+                    <h4>Vegetarian Lasagna - $19.99</h4>
+                    <p>Layers of pasta with ricotta, vegetables, and cheese</p>
+                    <ul>
+                        <li>Fresh vegetables:
+                            <ul>
+                                <li>Zucchini</li>
+                                <li>Eggplant</li>
+                                <li>Spinach</li>
+                                <li>Mushrooms
+                                    <ul>
+                                        <li>Portobello</li>
+                                        <li>Shiitake</li>
+                                        <li>Button mushrooms</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>Three cheese blend:
+                            <ul>
+                                <li>Ricotta</li>
+                                <li>Mozzarella</li>
+                                <li>Parmesan</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+
+                <li>
+                    <h4>Thai Green Curry - $21.99</h4>
+                    <p>Authentic Thai curry with coconut milk</p>
+                    <ul>
+                        <li>Choice of protein:
+                            <ul>
+                                <li>Chicken</li>
+                                <li>Beef</li>
+                                <li>Shrimp (+$3)</li>
+                                <li>Tofu (vegan option)</li>
+                            </ul>
+                        </li>
+                        <li>Fresh vegetables:
+                            <ul>
+                                <li>Thai eggplant</li>
+                                <li>Bamboo shoots</li>
+                                <li>Bell peppers</li>
+                                <li>Thai basil</li>
+                            </ul>
+                        </li>
+                        <li>Served with steamed jasmine rice</li>
+                    </ul>
+                </li>
+
+                <li>
+                    <h4>BBQ Ribs Full Rack - $29.99</h4>
+                    <p>Fall-off-the-bone tender pork ribs</p>
+                    <ul>
+                        <li>Slow-cooked for 6 hours</li>
+                        <li>House BBQ sauce options:
+                            <ul>
+                                <li>Sweet & Tangy</li>
+                                <li>Smoky Chipotle</li>
+                                <li>Carolina Mustard</li>
+                                <li>Kansas City Style</li>
+                            </ul>
+                        </li>
+                        <li>Served with:
+                            <ul>
+                                <li>Coleslaw</li>
+                                <li>Baked beans</li>
+                                <li>Cornbread</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+
+                <li>
+                    <h4>Paella Valenciana - $34.99</h4>
+                    <p>Traditional Spanish rice dish (serves 2)</p>
+                    <ul>
+                        <li>Bomba rice with saffron</li>
+                        <li>Mixed proteins:
+                            <ul>
+                                <li>Chicken thighs</li>
+                                <li>Spanish chorizo</li>
+                                <li>Mussels</li>
+                                <li>Shrimp</li>
+                                <li>Clams</li>
+                            </ul>
+                        </li>
+                        <li>Vegetables:
+                            <ul>
+                                <li>Green beans</li>
+                                <li>Lima beans</li>
+                                <li>Roasted red peppers</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+            </ol>
+        </section>
+
+        <!-- Desserts Section -->
+        <section id="desserts">
+            <h2>🍰 Desserts</h2>
+            <p><small>Sweet endings to your perfect meal</small></p>
+
+            <ol start="14">
+                <li>
+                    <h4>Tiramisu - $8.99</h4>
+                    <p>Classic Italian dessert with layers of:</p>
+                    <ul>
+                        <li>Ladyfinger cookies soaked in espresso</li>
+                        <li>Mascarpone cheese mixture</li>
+                        <li>Cocoa powder dusting</li>
+                        <li>Optional additions:
+                            <ul>
+                                <li>Kahlúa liqueur</li>
+                                <li>Amaretto</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+
+                <li>
+                    <h4>Chocolate Lava Cake - $9.99</h4>
+                    <p><strong>Warm chocolate cake</strong> with molten center</p>
+                    <ul>
+                        <li>Belgian dark chocolate</li>
+                        <li>Served with:
+                            <ul>
+                                <li>Vanilla ice cream</li>
+                                <li>Fresh berries
+                                    <ul>
+                                        <li>Strawberries</li>
+                                        <li>Raspberries</li>
+                                        <li>Blueberries</li>
+                                    </ul>
+                                </li>
+                                <li>Mint garnish</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+
+                <li>
+                    <h4>New York Cheesecake - $7.99</h4>
+                    <p>Rich and creamy classic cheesecake</p>
+                    <ul>
+                        <li>Graham cracker crust</li>
+                        <li>Cream cheese filling</li>
+                        <li>Topping options:
+                            <ul>
+                                <li>Fresh strawberry compote</li>
+                                <li>Blueberry sauce</li>
+                                <li>Caramel drizzle</li>
+                                <li>Chocolate sauce</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+
+                <li>
+                    <h4>Crème Brûlée - $8.99</h4>
+                    <p>French vanilla custard with caramelized sugar</p>
+                    <ul>
+                        <li>Made with Madagascar vanilla beans</li>
+                        <li>Torched sugar crust</li>
+                        <li>Flavors available:
+                            <ul>
+                                <li>Classic Vanilla</li>
+                                <li>Lavender</li>
+                                <li>Coffee</li>
+                                <li>Orange</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+
+                <li>
+                    <h4>Gelato Selection - $6.99</h4>
+                    <p>Authentic Italian gelato made fresh daily</p>
+                    <ul>
+                        <li>Three scoops of your choice:</li>
+                        <li>Flavors:
+                            <ul>
+                                <li>Pistachio</li>
+                                <li>Stracciatella (chocolate chip)</li>
+                                <li>Salted caramel</li>
+                                <li>Lemon sorbet
+                                    <ul>
+                                        <li>Dairy-free option</li>
+                                        <li>Made with Sicilian lemons</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+
+                <li>
+                    <h4>Apple Pie à la Mode - $7.99</h4>
+                    <p>Homemade apple pie with vanilla ice cream</p>
+                    <ul>
+                        <li>Fresh Granny Smith apples</li>
+                        <li>Flaky butter crust</li>
+                        <li>Cinnamon and nutmeg spices</li>
+                        <li>Served warm with:
+                            <ul>
+                                <li>Premium vanilla ice cream</li>
+                                <li>Caramel sauce</li>
+                                <li>Whipped cream</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+            </ol>
+        </section>
+
+        <!-- Beverages Section -->
+        <section id="beverages">
+            <h2>🥤 Beverages</h2>
+            <p><em>Perfectly paired drinks for every meal</em></p>
+
+            <ol start="20">
+                <li>
+                    <h4>Coffee & Espresso - $3.99 - $5.99</h4>
+                    <ul>
+                        <li>Hot beverages:
+                            <ul>
+                                <li>Espresso - $3.99</li>
+                                <li>Americano - $4.29</li>
+                                <li>Cappuccino - $4.99
+                                    <ul>
+                                        <li>Regular</li>
+                                        <li>Large (+$0.50)</li>
+                                    </ul>
+                                </li>
+                                <li>Latte - $5.29</li>
+                                <li>Mocha - $5.99</li>
+                            </ul>
+                        </li>
+                        <li>Cold beverages:
+                            <ul>
+                                <li>Iced coffee - $4.49</li>
+                                <li>Cold brew - $4.99</li>
+                                <li>Frappé - $5.99</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+
+                <li>
+                    <h4>Fresh Juices - $4.99 - $6.99</h4>
+                    <ul>
+                        <li>Single fruit juices:
+                            <ul>
+                                <li>Orange (freshly squeezed) - $4.99</li>
+                                <li>Apple - $4.99</li>
+                                <li>Cranberry - $4.99</li>
+                                <li>Pineapple - $5.49</li>
+                            </ul>
+                        </li>
+                        <li>Mixed juices:
+                            <ul>
+                                <li>Tropical blend
+                                    <ul>
+                                        <li>Pineapple, mango, passion fruit</li>
+                                        <li>$6.99</li>
+                                    </ul>
+                                </li>
+                                <li>Green juice
+                                    <ul>
+                                        <li>Spinach, kale, apple, cucumber</li>
+                                        <li>$6.49</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+
+                <li>
+                    <h4>Wine Selection - $8.99 - $15.99 (glass)</h4>
+                    <ul>
+                        <li>Red wines:
+                            <ul>
+                                <li>Cabernet Sauvignon - $12.99</li>
+                                <li>Merlot - $11.99</li>
+                                <li>Pinot Noir - $13.99
+                                    <ul>
+                                        <li>Oregon vintage</li>
+                                        <li>Light and fruity</li>
+                                    </ul>
+                                </li>
+                                <li>Chianti - $10.99</li>
+                            </ul>
+                        </li>
+                        <li>White wines:
+                            <ul>
+                                <li>Chardonnay - $11.99</li>
+                                <li>Sauvignon Blanc - $10.99</li>
+                                <li>Riesling - $9.99
+                                    <ul>
+                                        <li>Sweet German variety</li>
+                                        <li>Perfect with spicy food</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>Sparkling:
+                            <ul>
+                                <li>Prosecco - $12.99</li>
+                                <li>Champagne - $15.99</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+
+                <li>
+                    <h4>Craft Beer - $5.99 - $8.99</h4>
+                    <ul>
+                        <li>Local brewery selection:
+                            <ul>
+                                <li>IPA (India Pale Ale) - $7.99
+                                    <ul>
+                                        <li>Hoppy and bitter</li>
+                                        <li>6.5% ABV</li>
+                                    </ul>
+                                </li>
+                                <li>Wheat beer - $6.99</li>
+                                <li>Stout - $7.49</li>
+                                <li>Lager - $5.99
+                                    <ul>
+                                        <li>Light and crisp</li>
+                                        <li>Perfect summer beer</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>Imported:
+                            <ul>
+                                <li>German Pilsner - $8.99</li>
+                                <li>Belgian Ale - $8.49</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+
+                <li>
+                    <h4>Specialty Cocktails - $9.99 - $14.99</h4>
+                    <ul>
+                        <li>Classic cocktails:
+                            <ul>
+                                <li>Martini - $12.99
+                                    <ul>
+                                        <li>Gin or vodka</li>
+                                        <li>Dry or dirty</li>
+                                        <li>Olive or lemon twist</li>
+                                    </ul>
+                                </li>
+                                <li>Manhattan - $13.99</li>
+                                <li>Old Fashioned - $12.99</li>
+                            </ul>
+                        </li>
+                        <li>House specials:
+                            <ul>
+                                <li>Signature Sangria - $9.99
+                                    <ul>
+                                        <li>Red or white wine base</li>
+                                        <li>Fresh fruit</li>
+                                        <li>Brandy and orange liqueur</li>
+                                    </ul>
+                                </li>
+                                <li>Tropical Paradise - $11.99
+                                    <ul>
+                                        <li>Rum, coconut cream, pineapple</li>
+                                        <li>Served in coconut shell</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+
+                <li>
+                    <h4>Non-Alcoholic Beverages - $2.99 - $4.99</h4>
+                    <ul>
+                        <li>Soft drinks:
+                            <ul>
+                                <li>Cola, Sprite, Orange - $2.99</li>
+                                <li>Diet options available</li>
+                            </ul>
+                        </li>
+                        <li>Premium options:
+                            <ul>
+                                <li>Sparkling water - $3.49
+                                    <ul>
+                                        <li>San Pellegrino</li>
+                                        <li>Perrier</li>
+                                    </ul>
+                                </li>
+                                <li>Iced tea varieties - $3.99
+                                    <ul>
+                                        <li>Sweet tea</li>
+                                        <li>Unsweetened</li>
+                                        <li>Green tea</li>
+                                        <li>Peach tea</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+            </ol>
+        </section>
+
+        <!-- Special Information -->
+        <section>
+            <h2>🌟 Special Information</h2>
+            
+            <h3>Dietary Options</h3>
+            <ul>
+                <li><strong>Vegetarian:</strong> Items marked with 🌱</li>
+                <li><strong>Vegan:</strong> Items marked with 🌿</li>
+                <li><strong>Gluten-Free:</strong> Items marked with ⭐</li>
+                <li><strong>Spicy:</strong> Items marked with 🌶️</li>
+            </ul>
+
+            <h3>Chef's Recommendations</h3>
+            <ol>
+                <li><mark>Lobster Thermidor</mark> - Our signature dish</li>
+                <li><u>Paella Valenciana</u> - Perfect for sharing</li>
+                <li><em>Tiramisu</em> - House-made daily</li>
+            </ol>
+
+            <h3>Pricing Information</h3>
+            <p><small>Prices subject to change. Tax not included. 18% gratuity added to parties of 6 or more.</small></p>
+            
+            <h3>Hours of Operation</h3>
+            <table border="1">
+                <tr>
+                    <th>Day</th>
+                    <th>Lunch</th>
+                    <th>Dinner</th>
+                </tr>
+                <tr>
+                    <td>Monday - Thursday</td>
+                    <td>11:30 AM - 2:30 PM</td>
+                    <td>5:00 PM - 10:00 PM</td>
+                </tr>
+                <tr>
+                    <td>Friday - Saturday</td>
+                    <td>11:30 AM - 2:30 PM</td>
+                    <td>5:00 PM - 11:00 PM</td>
+                </tr>
+                <tr>
+                    <td>Sunday</td>
+                    <td>12:00 PM - 3:00 PM</td>
+                    <td>5:00 PM - 9:00 PM</td>
+                </tr>
+            </table>
+        </section>
+    </main>
+
+    <!-- Contact Section -->
+    <footer id="contact">
+        <hr>
+        <h2>📞 Contact Information</h2>
+        <address>
+            <strong>Delicious Bites Restaurant</strong><br>
+            123 Gourmet Street<br>
+            Foodie District, FC 12345<br>
+            <br>
+            Phone: <a href="tel:+1-555-123-4567">(555) 123-4567</a><br>
+            Email: <a href="mailto:info@deliciousbites.com">info@deliciousbites.com</a><br>
+            Website: <a href="https://www.deliciousbites.com" target="_blank">www.deliciousbites.com</a>
+        </address>
+
+        <h3>Follow Us</h3>
+        <ul>
+            <li><a href="#" target="_blank">Facebook</a></li>
+            <li><a href="#" target="_blank">Instagram</a></li>
+            <li><a href="#" target="_blank">Twitter</a></li>
+        </ul>
+
+        <p><small>&copy; 2024 Delicious Bites Restaurant. All rights reserved.</small></p>
+        
+        <p><sup>*</sup>Menu items and prices are subject to availability and seasonal changes.</p>
+        <p><sub>Please inform your server of any food allergies or dietary restrictions.</sub></p>
+    </footer>
+</body>
+</html>
