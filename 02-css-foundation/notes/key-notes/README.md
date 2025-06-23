@@ -1,0 +1,93 @@
+CSS Properties and Pseudo-Classes Notes
+=======================================
+
+CSS Properties (Descriptions)
+-----------------------------
+
+-   `background-attachment`: Controls whether a background image scrolls or is fixed (e.g., `scroll`, `fixed`).
+-   `background-color`: Sets the background color of an element (e.g., `red`, `#ffffff`).
+-   `background-image`: Specifies an image as the background (e.g., `url('image.jpg')`).
+-   `background-image (gradients)`: Defines gradient backgrounds (e.g., `linear-gradient(to right, red, blue)`).
+-   `background-position`: Sets the starting position of a background image (e.g., `center`, `50% 50%`).
+-   `background`: Shorthand for background properties (e.g., `background: #fff url('image.jpg') no-repeat center`).
+-   `background-repeat`: Controls background image repetition (e.g., `repeat`, `no-repeat`).
+-   `border-bottom-color`: Sets the color of the bottom border.
+-   `border-bottom-style`: Defines the style of the bottom border (e.g., `solid`, `dashed`).
+-   `border-collapse`: Controls whether table borders collapse into a single border (e.g., `collapse`, `separate`).
+-   `border-color`: Sets the color of all borders (shorthand).
+-   `border-image`: Uses an image as a border (e.g., `border-image: url('border.png') 30 stretch`).
+-   `border-left-color`: Sets the color of the left border.
+-   `border-left-style`: Defines the style of the left border.
+-   `border`: Shorthand for border properties (e.g., `border: 1px solid black`).
+-   `border-radius`: Rounds the corners of an element (e.g., `10px`, `50%`).
+-   `border-right-color`: Sets the color of the right border.
+-   `border-right-style`: Defines the style of the right border.
+-   `border-spacing`: Sets the distance between table cell borders (e.g., `5px`).
+-   `border-style`: Sets the style of all borders (shorthand, e.g., `solid`).
+-   `border-top-color`: Sets the color of the top border.
+-   `border-top-style`: Defines the style of the top border.
+-   `bottom`: Positions an element relative to the bottom edge (used with `position`).
+-   `box-shadow`: Adds shadow effects to an element (e.g., `box-shadow: 5px 5px 10px rgba(0,0,0,0.5)`).
+-   `clear`: Clears floats on an element (e.g., `left`, `right`, `both`).
+-   `color`: Sets the text color (e.g., `blue`, `#0000ff`).
+-   `cursor`: Defines the mouse cursor style (e.g., `pointer`, `wait`).
+-   `display`: Controls the display type of an element (e.g., `block`, `inline`, `none`).
+-   `empty-cells`: Controls visibility of empty table cells (e.g., `show`, `hide`).
+-   `float`: Floats an element to the left or right, allowing content to wrap (e.g., `left`, `right`).
+-   `float (images)`: Floats images specifically, aligning them within content.
+-   `@font-face`: Defines custom fonts for use in the webpage.
+-   `font-family`: Specifies the font for text (e.g., `Arial, sans-serif`).
+-   `font-size`: Sets the size of text (e.g., `16px`, `1em`).
+-   `font-style`: Defines the style of text (e.g., `italic`, `normal`).
+-   `height (images)`: Sets the height of an image (e.g., `200px`, `auto`).
+-   `hsl / hsla`: Defines colors using hue, saturation, lightness, and optional alpha (e.g., `hsla(120, 50%, 50%, 0.5)`).
+-   `left`: Positions an element relative to the left edge (used with `position`).
+-   `letter-spacing`: Adjusts spacing between characters (e.g., `2px`).
+-   `line-height`: Sets the height of a line of text (e.g., `1.5`, `20px`).
+-   `list-style-image`: Uses an image as a list item marker (e.g., `url('marker.png')`).
+-   `list-style-position`: Sets the position of list markers (e.g., `inside`, `outside`).
+-   `list-style`: Shorthand for list-style properties (e.g., `list-style: square inside`).
+-   `list-style-type`: Defines the type of list marker (e.g., `disc`, `decimal`).
+-   `margin-bottom`: Sets the bottom margin of an element.
+-   `margin-left`: Sets the left margin of an element.
+-   `margin`: Shorthand for all margin properties (e.g., `margin: 10px 20px`).
+-   `margin-right`: Sets the right margin of an element.
+-   `margin-top`: Sets the top margin of an element.
+-   `opacity`: Sets the transparency of an element (e.g., `0.5` for 50% opacity).
+-   `padding-bottom`: Sets the bottom padding of an element.
+-   `padding-left`: Sets the left padding of an element.
+-   `padding`: Shorthand for all padding properties (e.g., `padding: 10px`).
+-   `padding (tables)`: Applies padding to table cells specifically.
+-   `padding-right`: Sets the right padding of an element.
+-   `padding-top`: Sets the top padding of an element.
+-   `position`: Defines the positioning method (e.g., `static`, `relative`, `absolute`).
+-   `rgba`: Defines colors using red, green, blue, and alpha (e.g., `rgba(255, 0, 0, 0.5)`).
+-   `right`: Positions an element relative to the right edge (used with `position`).
+-   `text-align`: Aligns text horizontally (e.g., `center`, `left`, `justify`).
+-   `text-decoration`: Adds decorations to text (e.g., `underline`, `line-through`).
+-   `text-indent`: Indents the first line of text (e.g., `20px`).
+-   `text-shadow`: Adds shadow effects to text (e.g., `text-shadow: 2px 2px 4px rgba(0,0,0,0.5)`).
+-   `text-transform`: Changes text case (e.g., `uppercase`, `capitalize`).
+-   `top`: Positions an element relative to the top edge (used with `position`).
+-   `vertical-align`: Aligns elements vertically (e.g., `middle`, `top`).
+-   `visibility`: Controls element visibility (e.g., `visible`, `hidden`).
+-   `width (images)`: Sets the width of an image (e.g., `300px`, `auto`).
+-   `width (floating elements)`: Sets the width of floated elements.
+-   `width (tables)`: Sets the width of table elements.
+-   `word-spacing`: Adjusts spacing between words (e.g., `5px`).
+-   `z-index`: Sets the stacking order of positioned elements (e.g., `10`).
+
+Pseudo-Classes, Elements, and Rules
+-----------------------------------
+
+-   `:active`: Styles an element when activated (e.g., clicked).
+-   `:first-letter`: Styles the first letter of a block of text.
+-   `:first-line`: Styles the first line of a block of text.
+-   `:focus`: Styles an element when it has focus (e.g., form input).
+-   `:hover`: Styles an element when hovered over.
+-   `:link`: Styles unvisited links.
+-   `:visited`: Styles visited links.
+-   `@font-face`: Rule to define custom fonts.
+-   `@import`: Imports external CSS files (e.g., `@import url('styles.css')`).
+-   `!important`: Increases a rule's specificity (e.g., `color: red !important`).
+-   **Note**: Highlighting table rows uses `:hover` on `<tr>` elements.
