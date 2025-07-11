@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+</head>
+
+<body>
+    <div id="password_box">
+        <h1><img src="/assets/image-removebg-preview.png" id="main_img"><span id="heading">Password Generator</span>
+        </h1>
+        <p id="para">Create secure passwords instantly</p>
+        <div id="output">
+            <div id="password" class="password-output">Generated password will appear here</div>
+            
+        </div>
+        <div id="input">
+            <label>Password Length</label>
+
+            <div id="length">
+                <button id="length_plus" onclick="increaseLength()"><i class="fa-solid fa-plus"></i></button>
+                <input type="number" id="password_length" placeholder="Type the length of your password">
+                <button id="length_minus" onclick="decreaseLength()"><i class="fa-solid fa-minus"></i></button>
+            </div>
+            <div id="checkbox">
+                <div class="form-check form-switch switch">
+                    <label class="form-check-label label_input" for="include_numbers">Include Numbers</label>
+                    <input class="form-check-input" type="checkbox" role="switch" id="include_numbers">
+                </div>
+                <div class="form-check form-switch switch">
+                    <label class="form-check-label label_input" for="include_symbols">Include Symbols</label>
+                    <input class="form-check-input" type="checkbox" role="switch" id="include_symbols">
+                </div>
+                <div class="form-check form-switch switch">
+                    <label class="form-check-label label_input" for="include_alphabets">Include Alphabets</label>
+                    <input class="form-check-input" type="checkbox" role="switch" id="include_alphabets">
+                </div>
+            </div>
+            <div class="d-grid gap-2 col-6 mx-auto">
+                <button class="btn btn-primary" id="generate" type="button" onclick="generatePasswordFromUI()">Generate Password</button>
+
+            </div>
+        </div>
+
+        <script src="/app.js"></script>
+        <script src="https://kit.fontawesome.com/f85fc2f485.js" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+            crossorigin="anonymous"></script>
+</body>
+
+</html>
