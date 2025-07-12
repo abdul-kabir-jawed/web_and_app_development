@@ -80,7 +80,7 @@ button {
   position: relative;
   
 
-  /* ✅ Your original border design */
+  
   border-left: 8px solid #b2b7bf;
   border-top: 1px solid #b2b7bf;
   border-right: 1px solid #b2b7bf;
@@ -88,7 +88,7 @@ button {
   border-radius: 8px 0 0 8px;
   margin-bottom: 5px;
 
-  /* ✅ Disable Y overflow, enable X overflow that spills */
+  
   overflow-y: hidden;
   overflow-x: hidden;
 
@@ -97,7 +97,7 @@ button {
   margin-bottom: 5px;
 }
 
-/* Text content: allow long scroll but not hidden under button */
+
 .user_task p {
   margin: 0;
   margin-top: 5px;
@@ -107,10 +107,9 @@ button {
   overflow-x: auto;
   overflow-y: hidden;
 
-  margin-right: 70px;          /* ✅ Leaves space before buttons */
+  margin-right: 70px;        
 }
 
-/* Heading stays clean */
 .user_task h2 {
   font-weight: 700;
   white-space: nowrap;
@@ -118,7 +117,7 @@ button {
   flex-shrink: 0;
 }
 
-/* Button box stays fixed inside the right corner */
+
 #choose {
   width: 50px;
   height: 53px;
