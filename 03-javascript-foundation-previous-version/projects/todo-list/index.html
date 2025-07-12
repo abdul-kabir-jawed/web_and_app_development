@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo List</title>
+    <link href="/style.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/f85fc2f485.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <div id="main">
+        <header>
+            <h1 id="heading">My Tasks</h1>
+            <p id="para">Stay organized and productive</p>
+        </header>
+        <section>
+            <div id="input">
+                <input type="text" id="field" placeholder="Add a new task"></input>
+                <button id="add" onclick="addTask(document.getElementById('field').value)"><i class="fa-sharp-duotone fa-solid fa-plus"></i></button>
+            </div>
+        </section>
+        <div id="tasks">
+        </div>
+        <div id="footer">
+            <h3 id="task_num">Current Task: </h3>
+            <h3 id="task_done">Done Task:</h3>
+            <h3 id="task_cancel">Cancel Task:</h3>
+        </div>
+    </div>
+    <script src="/app.js"></script>
+</body>
+
+</html>
