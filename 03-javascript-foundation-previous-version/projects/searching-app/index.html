@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="/style.css" rel="stylesheet">
+    <title>CineSearch - Movie Discovery App</title>
+</head>
+
+<body>
+    <header>
+        <div id="header">
+            <nav class="navbar bg-body-tertiary">
+                <div class="container-fluid" id="header">
+                    <a class="navbar-brand " id="logo_style" href="#" onclick="window.location.reload()">
+                        <i class="fa-solid fa-film me-2 brand-icon"></i>
+                        <p>CineSearch</p>
+                    </a>
+                    <form class="d-flex " id="custom_search" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"
+                            id="search_container" />
+                        <div class="btn btn-outline-success" id="search_icon"
+                            onclick="searchListSorting(),searchbarClear()">
+                        <input type="button"><i class="fa-solid fa-magnifying-glass"
+                            id="magnifying_glass"></i></div>
+                    </form>
+                    <a id="login_icon" href="#">
+                        <i class="fa-solid fa-user"></i>
+                    </a>
+                </div>
+            </nav>
+        </div>
+
+    </header>
+
+    <main>
+        <div class="col-12" id="tag_line">
+            <div class="hero-section text-center">
+                <h1 class="hero-title">Discover Amazing Movies</h1>
+                <p class="hero-subtitle">Explore our curated collection of blockbusters, thrillers, and hidden
+                    gems</p>
+            </div>
+        </div>
+        <div class="row g-4 movies-grid justify-content-center" id="movie_poster">
+            <!-- Mortal Kombat -->
+            <div class="col-12 col-lg-4 movie-col movie_poster_list" data-movie-name="mortalkombat">
+                <div class="card movie-card h-100">
+                    <div class="card-img-wrapper">
+                        <img src="/assests/mortal.jpg" class="card-img-top" alt="Mortal Kombat">
+
+                    </div>
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title movie-title">Mortal Kombat</h5>
+                        <p class="card-text movie-description flex-grow-1">A group of fighters is chosen to compete
+                            in a brutal tournament to protect Earth from an evil realm. Packed with intense action
+                            and iconic characters, it delivers thrilling martial arts battles.</p>
+                        <div class="card-footer-custom" id="poster_footer">
+                            <span class="badge genre-tag">Action</span>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Megalodon -->
+            <div class="col-12 col-lg-4 movie-col movie_poster_list" data-movie-name="megladon">
+                <div class="card movie-card h-100">
+                    <div class="card-img-wrapper">
+                        <img src="/assests/megladon.jpg" class="card-img-top" alt="Megalodon">
+
+                    </div>
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title movie-title">Megalodon</h5>
+                        <p class="card-text movie-description flex-grow-1">A prehistoric giant shark terrorizes a
+                            group of scientists and military personnel stranded in the ocean. This action-packed
+                            thriller combines suspense with jaw-dropping creature effects.</p>
+                        <div class="card-footer-custom d-flex justify-content-between align-items-center">
+                            <span class="badge genre-tag">Thriller</span>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- It -->
+            <div class="col-12 col-lg-4 movie-col movie_poster_list" data-movie-name="it">
+                <div class="card movie-card h-100">
+                    <div class="card-img-wrapper">
+                        <img src="/assests/it.jpg" class="card-img-top" alt="It">
+
+                    </div>
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title movie-title">It</h5>
+                        <p class="card-text movie-description flex-grow-1">A group of kids confronts a
+                            shape-shifting entity that preys on their town's children, often appearing as a sinister
+                            clown. This horror classic blends emotional coming-of-age themes with terrifying
+                            supernatural scares.</p>
+                        <div class="card-footer-custom d-flex justify-content-between align-items-center">
+                            <span class="badge genre-tag">Horror</span>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- All of Us Are Dead -->
+            <div class="col-12 col-lg-4 movie-col movie_poster_list" data-movie-name="allofusaredead">
+                <div class="card movie-card h-100">
+                    <div class="card-img-wrapper">
+                        <img src="/assests/all_of_us_are_dead.jpg" class="card-img-top" alt="All of Us Are Dead">
+
+                    </div>
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title movie-title">All of Us Are Dead</h5>
+                        <p class="card-text movie-description flex-grow-1">A zombie outbreak traps students inside
+                            their high school, forcing them to fight for survival. This South Korean series mixes
+                            intense horror with emotional teen drama.</p>
+                        <div class="card-footer-custom d-flex justify-content-between align-items-center">
+                            <span class="badge genre-tag">Horror</span>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Kingdom -->
+            <div class="col-12 col-lg-4 movie-col movie_poster_list" data-movie-name="kingdom">
+                <div class="card movie-card h-100">
+                    <div class="card-img-wrapper">
+                        <img src="/assests/kingdom.jpg" class="card-img-top" alt="Kingdom">
+
+                    </div>
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title movie-title">Kingdom</h5>
+                        <p class="card-text movie-description flex-grow-1">In Joseon-era Korea, a crown prince
+                            uncovers a zombie plague threatening his kingdom. This historical horror series blends
+                            political intrigue with relentless undead action.</p>
+                        <div class="card-footer-custom d-flex justify-content-between align-items-center">
+                            <span class="badge genre-tag">Historical</span>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Sweet Home -->
+            <div class="col-12 col-lg-4 movie-col movie_poster_list" data-movie-name="sweethome">
+                <div class="card movie-card h-100">
+                    <div class="card-img-wrapper">
+                        <img src="/assests/sweet_home.jpg" class="card-img-top" alt="Sweet Home">
+
+                    </div>
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title movie-title">Sweet Home</h5>
+                        <p class="card-text movie-description flex-grow-1">Residents of an apartment complex battle
+                            grotesque monsters while confronting their inner demons. This South Korean horror series
+                            delivers gory thrills and psychological depth.</p>
+                        <div class="card-footer-custom d-flex justify-content-between align-items-center">
+                            <span class="badge genre-tag">Horror</span>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Train to Busan -->
+            <div class="col-12 col-lg-4 movie-col movie_poster_list" data-movie-name="traintobusan">
+                <div class="card movie-card h-100">
+                    <div class="card-img-wrapper">
+                        <img src="/assests/train_to_bhusan.jpg" class="card-img-top" alt="Train to Busan">
+
+                    </div>
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title movie-title">Train to Busan</h5>
+                        <p class="card-text movie-description flex-grow-1">A father and daughter fight to survive a
+                            zombie outbreak on a high-speed train to Busan. This South Korean masterpiece combines
+                            heart-pounding action with emotional storytelling.</p>
+                        <div class="card-footer-custom d-flex justify-content-between align-items-center">
+                            <span class="badge genre-tag">Drama</span>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Mission: Impossible -->
+            <div class="col-12 col-lg-4 movie-col movie_poster_list" data-movie-name="missionimpossible">
+                <div class="card movie-card h-100">
+                    <div class="card-img-wrapper">
+                        <img src="/assests/mission_immposible.jpg" class="card-img-top" alt="Mission: Impossible">
+
+                    </div>
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title movie-title">Mission: Impossible</h5>
+                        <p class="card-text movie-description flex-grow-1">Ethan Hunt and his IMF team undertake
+                            daring global missions filled with high-stakes espionage. Known for jaw-dropping stunts,
+                            this franchise delivers relentless action and intrigue.</p>
+                        <div class="card-footer-custom d-flex justify-content-between align-items-center">
+                            <span class="badge genre-tag">Action</span>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- The Karate Kid -->
+            <div class="col-12 col-lg-4 movie-col movie_poster_list" data-movie-name="thekaratekid">
+                <div class="card movie-card h-100">
+                    <div class="card-img-wrapper">
+                        <img src="/assests/karate_kid.jpg" class="card-img-top" alt="The Karate Kid">
+
+                    </div>
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title movie-title">The Karate Kid</h5>
+                        <p class="card-text movie-description flex-grow-1">A young boy learns martial arts and life
+                            lessons from a wise mentor to face his bullies. This coming-of-age classic inspires with
+                            its heartfelt story and iconic training sequences.</p>
+                        <div class="card-footer-custom d-flex justify-content-between align-items-center">
+                            <span class="badge genre-tag">Drama</span>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Rush Hour -->
+            <div class="col-12 col-lg-4 movie-col movie_poster_list" data-movie-name="rushhour">
+                <div class="card movie-card h-100">
+                    <div class="card-img-wrapper">
+                        <img src="/assests/jackie.jpg" class="card-img-top" alt="Rush Hour">
+
+                    </div>
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title movie-title">Rush Hour</h5>
+                        <p class="card-text movie-description flex-grow-1">A Hong Kong detective and a brash LAPD
+                            cop team up to solve a kidnapping case. This action-comedy shines with Jackie Chan's
+                            stunts and Chris Tucker's humor.</p>
+                        <div class="card-footer-custom d-flex justify-content-between align-items-center">
+                            <span class="badge genre-tag">Comedy</span>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Johnny English -->
+            <div class="col-12 col-lg-4 movie-col movie_poster_list" data-movie-name="johnnyenglish">
+                <div class="card movie-card h-100">
+                    <div class="card-img-wrapper">
+                        <img src="/assests/robertatkinson.jpg" class="card-img-top" alt="Johnny English">
+
+                    </div>
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title movie-title">Johnny English</h5>
+                        <p class="card-text movie-description flex-grow-1">A bumbling British spy accidentally
+                            becomes MI7's last hope against a global threat. This spy comedy delivers slapstick
+                            laughs with Rowan Atkinson's iconic charm.</p>
+                        <div class="card-footer-custom d-flex justify-content-between align-items-center">
+                            <span class="badge genre-tag">Comedy</span>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Zack Snyder's Justice League -->
+            <div class="col-12 col-lg-4 movie-col movie_poster_list" data-movie-name="zacksnydersjusticeleague">
+                <div class="card movie-card h-100">
+                    <div class="card-img-wrapper">
+                        <img src="/assests/justice_league.jpg" class="card-img-top" alt="Zack Snyder's Justice League">
+
+                    </div>
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title movie-title">Zack Snyder's Justice League</h5>
+                        <p class="card-text movie-description flex-grow-1">DC's superheroes unite to stop an alien
+                            invasion threatening Earth's destruction. This epic director's cut offers a darker,
+                            grander vision with stunning visuals.</p>
+                        <div class="card-footer-custom d-flex justify-content-between align-items-center">
+                            <span class="badge genre-tag">Superhero</span>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- The Avengers -->
+            <div class="col-12 col-lg-4 movie-col movie_poster_list" data-movie-name="theavengers">
+                <div class="card movie-card h-100">
+                    <div class="card-img-wrapper">
+                        <img src="/assests/avengers.jpg" class="card-img-top" alt="The Avengers">
+
+                    </div>
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title movie-title">The Avengers</h5>
+                        <p class="card-text movie-description flex-grow-1">Marvel's iconic heroes band together to
+                            stop Loki's alien invasion of Earth. This superhero blockbuster blends action, humor,
+                            and teamwork in a thrilling spectacle.</p>
+                        <div class="card-footer-custom d-flex justify-content-between align-items-center">
+                            <span class="badge genre-tag">Superhero</span>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Rise of the Planet of the Apes -->
+            <div class="col-12 col-lg-4 movie-col movie_poster_list" data-movie-name="riseoftheplanetofapes">
+                <div class="card movie-card h-100">
+                    <div class="card-img-wrapper">
+                        <img src="/assests/apes.jpg" class="card-img-top" alt="Rise of the Planet of the Apes">
+
+                    </div>
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title movie-title">Rise of the Planet of the Apes</h5>
+                        <p class="card-text movie-description flex-grow-1">A scientist's experiment grants apes
+                            advanced intelligence, sparking a revolution. This sci-fi reboot delivers gripping drama
+                            and groundbreaking visual effects.</p>
+                        <div class="card-footer-custom d-flex justify-content-between align-items-center">
+                            <span class="badge genre-tag">Sci-Fi</span>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Godzilla x Kong -->
+            <div class="col-12 col-lg-4 movie-col movie_poster_list" data-movie-name="godzillaxkong">
+                <div class="card movie-card h-100">
+                    <div class="card-img-wrapper">
+                        <img src="/assests/kingkong_godzilla.jpg" class="card-img-top" alt="Godzilla x Kong">
+
+                    </div>
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title movie-title">Godzilla x Kong</h5>
+                        <p class="card-text movie-description flex-grow-1">Titans Godzilla and Kong clash and team
+                            up against a monstrous threat. This action-packed MonsterVerse entry offers colossal
+                            battles and stunning visuals.</p>
+                        <div class="card-footer-custom d-flex justify-content-between align-items-center">
+                            <span class="badge genre-tag">Action</span>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Pirates of the Caribbean -->
+            <div class="col-12 col-lg-4 movie-col movie_poster_list" data-movie-name="piratesofthecaribbean">
+                <div class="card movie-card h-100">
+                    <div class="card-img-wrapper">
+                        <img src="/assests/pirates.jpg" class="card-img-top" alt="Pirates of the Caribbean">
+
+                    </div>
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title movie-title">Pirates of the Caribbean</h5>
+                        <p class="card-text movie-description flex-grow-1">Captain Jack Sparrow navigates
+                            treacherous seas, battling curses and rival pirates. This swashbuckling saga blends
+                            adventure, humor, and supernatural thrills.</p>
+                        <div class="card-footer-custom d-flex justify-content-between align-items-center">
+                            <span class="badge genre-tag">Adventure</span>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Money Heist -->
+            <div class="col-12 col-lg-4 movie-col movie_poster_list" data-movie-name="moneyheist">
+                <div class="card movie-card h-100">
+                    <div class="card-img-wrapper">
+                        <img src="/assests/money_heist.jpg" class="card-img-top" alt="Money Heist">
+
+                    </div>
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title movie-title">Money Heist</h5>
+                        <p class="card-text movie-description flex-grow-1">A criminal mastermind leads a team to
+                            pull off daring heists on Spain's major institutions. This Spanish thriller captivates
+                            with intricate plots and intense drama.</p>
+                        <div class="card-footer-custom d-flex justify-content-between align-items-center">
+                            <span class="badge genre-tag">Thriller</span>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Dolittle -->
+            <div class="col-12 col-lg-4 movie-col movie_poster_list" data-movie-name="dolittle">
+                <div class="card movie-card h-100">
+                    <div class="card-img-wrapper">
+                        <img src="/assests/dolittle.png" class="card-img-top" alt="Dolittle">
+
+                    </div>
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title movie-title">Dolittle</h5>
+                        <p class="card-text movie-description flex-grow-1">A quirky veterinarian embarks on a
+                            fantastical adventure to save a young queen. This family-friendly film charms with its
+                            whimsical creatures and Robert Downey Jr.'s performance.</p>
+                        <div class="card-footer-custom d-flex justify-content-between align-items-center">
+                            <span class="badge genre-tag">Family</span>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Alice in Borderland -->
+            <div class="col-12 col-lg-4 movie-col movie_poster_list" data-movie-name="aliceinborderland">
+                <div class="card movie-card h-100">
+                    <div class="card-img-wrapper">
+                        <img src="/assests/alice_in_boder.jpg" class="card-img-top" alt="Alice in Borderland">
+
+                    </div>
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title movie-title">Alice in Borderland</h5>
+                        <p class="card-text movie-description flex-grow-1">A gamer and his friends are trapped in a
+                            deadly version of Tokyo, competing in lethal games. This Japanese thriller grips with
+                            high-stakes challenges and psychological twists.</p>
+                        <div class="card-footer-custom d-flex justify-content-between align-items-center">
+                            <span class="badge genre-tag">Thriller</span>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Squid Game -->
+            <div class="col-12 col-lg-4 movie-col movie_poster_list" data-movie-name="squidgame">
+                <div class="card movie-card h-100">
+                    <div class="card-img-wrapper">
+                        <img src="/assests/squid_game.jpg" class="card-img-top" alt="Squid Game">
+
+                    </div>
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title movie-title">Squid Game</h5>
+                        <p class="card-text movie-description flex-grow-1">Desperate contestants risk their lives in
+                            deadly children's games for a massive cash prize. This South Korean phenomenon blends
+                            social commentary with shocking suspense.</p>
+                        <div class="card-footer-custom d-flex justify-content-between align-items-center">
+                            <span class="badge genre-tag">Drama</span>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Jurassic World -->
+            <div class="col-12 col-lg-4 movie-col movie_poster_list" data-movie-name="jurrasicworld">
+                <div class="card movie-card h-100">
+                    <div class="card-img-wrapper">
+                        <img src="/assests/jurrasic_world.jpg" class="card-img-top" alt="Jurassic World">
+
+                    </div>
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title movie-title">Jurassic World</h5>
+                        <p class="card-text movie-description flex-grow-1">A genetically engineered dinosaur wreaks
+                            havoc at a revived dinosaur theme park. This sci-fi adventure thrills with breathtaking
+                            creatures and intense action.</p>
+                        <div class="card-footer-custom d-flex justify-content-between align-items-center">
+                            <span class="badge genre-tag">Adventure</span>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="https://kit.fontawesome.com/f85fc2f485.js" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
