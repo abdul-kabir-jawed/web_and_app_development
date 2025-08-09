@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <script src="https://kit.fontawesome.com/f85fc2f485.js" crossorigin="anonymous"></script>
+    <link href="/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="customModal" class="modal-overlay">
+        <div class="modal-popup">
+            <div id="modalIcon" class="modal-icon">
+                <i class="fas fa-info-circle"></i>
+            </div>
+            <div id="modalTitle" class="modal-title">Notice</div>
+            <div id="modalMessage" class="modal-message">This is a message</div>
+            <button id="modalOkButton" class="modal-button">OK</button>
+        </div>
+    </div>
+    <main>
+        <div id="details">
+            <h1 id="detail_title">Sign in</h1>
+            <form>
+                <div id="buttons">
+                    <a href="#" class="external_way"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" class="external_way"><i class="fa-brands fa-google"></i></a>
+                    <a href="#" class="external_way"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+                <p>or use your account</p>
+
+                <input type="email" placeholder="Email" id="email_check" required>
+                <input type="password" placeholder="Password" id="password_check" required>
+
+                <a href="#" class="forgot-password">Forgot your password?</a>
+                <button type="button" id="signin_btn" class="button" onclick="detailsCheck()">SIGN IN</button>
+            </form>
+        </div>
+
+        <div id="showcase">
+            <h1 id="greetings">Hello, Friend!</h1>
+            <p id="greeting_line">Enter your personal details and start journey with us</p>
+            <button id="signup_btn" class="button" onclick="switchForms()">SIGN UP</button>
+        </div>
+    </main>
+
+    <script src="/app.js">
+
+    </script>
+</body>
+</body>
+
+</html>
