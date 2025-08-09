@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rose Gold Tic Tac Toe</title>
+
+  <!-- Fonts & Icons -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Poppins:wght@400;500;600&display=swap"
+    rel="stylesheet">
+  <script src="https://kit.fontawesome.com/f85fc2f485.js" crossorigin="anonymous"></script>
+
+  <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <nav>
+      <a href="#" id="heading">TIC TAC TOE</a>
+    </nav>
+  </header>
+
+  <main>
+    <div id="start_screen" class="glass">
+      <h1 id="start_title">Choose Your Mode</h1>
+      <p id="start_subtitle">Select how you want to play</p>
+
+      <button class="mode_button" onclick="startGame('computer')">
+        <i class="fas fa-robot"></i>
+        Play vs Computer
+      </button>
+
+      <button class="mode_button" onclick="startGame('multiplayer')">
+        <i class="fas fa-users"></i>
+        Two Player Mode
+      </button>
+    </div>
+
+    <div id="game" class="glass">
+      <div id="game_heading">
+        <p id="timer"></p>
+        <p id="mode">Computer VS Human</p>
+      </div>
+      <div id="status_message">Player X's Turn</div>
+
+      <div id="game_box">
+        <div id="box_1" class="boxes" data-number="box_1" data-value="" onclick="handleBoxClick(this)"></div>
+        <div id="box_2" class="boxes" data-number="box_2" data-value="" onclick="handleBoxClick(this)"></div>
+        <div id="box_3" class="boxes" data-number="box_3" data-value="" onclick="handleBoxClick(this)"></div>
+        <div id="box_4" class="boxes" data-number="box_4" data-value="" onclick="handleBoxClick(this)"></div>
+        <div id="box_5" class="boxes" data-number="box_5" data-value="" onclick="handleBoxClick(this)"></div>
+        <div id="box_6" class="boxes" data-number="box_6" data-value="" onclick="handleBoxClick(this)"></div>
+        <div id="box_7" class="boxes" data-number="box_7" data-value="" onclick="handleBoxClick(this)"></div>
+        <div id="box_8" class="boxes" data-number="box_8" data-value="" onclick="handleBoxClick(this)"></div>
+        <div id="box_9" class="boxes" data-number="box_9" data-value="" onclick="handleBoxClick(this)"></div>
+      </div>
+
+      <div id="game_footer">
+        <button class="game_button" onclick="newGame()">New Game</button>
+      </div>
+    </div>
+
+    <div id="winning_screen" class="glass hidden">
+      <div class="celebration">🎉</div>
+      <h1 id="winner_announcement">Player X Wins!</h1>
+      <p id="winner_message">Congratulations on your victory!</p>
+      <div class="celebration">🏆</div>
+
+      <div id="game_footer">
+        <button class="game_button" onclick="newGame()">Play Again</button>
+      </div>
+    </div>
+  </main>
+
+  <script src="/app.js"></script>
+</body>
+
+</html>
