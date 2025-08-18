@@ -1,0 +1,179 @@
+/* Global reset */
+* {
+    box-sizing: border-box;
+    appearance: none;
+}
+
+/* Body setup */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    min-height: 100vh;
+}
+
+/* Main container with dynamic background */
+#container {
+    width: 100vw;
+    min-height: 100vh;
+    background-image: url(/assets/pngtree-white-cloud-on-blue-sky-weather-background-image_410050.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    mix-blend-mode: normal;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+/* Search bar container */
+#search_bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.search-wrapper {
+    position: relative;
+    width: 85%;
+    max-width: 600px;
+}
+
+/* Search input with glassmorphism effect */
+#search {
+    height: 60px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(25px);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    outline: none;
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 18px;
+    padding-left: 25px;
+    padding-right: 60px;
+    font-family: inherit;
+    transition: all 0.3s ease;
+}
+
+#search::placeholder {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+#search:focus {
+    background-color: rgba(0, 0, 0, 0.5);
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.4);
+    transform: translateY(-2px);
+}
+
+/* Search icon positioning and styling */
+#icon {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.7);
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+#icon:hover {
+    color: white;
+    transform: translateY(-50%) scale(1.1);
+}
+
+/* Weather data display container */
+#data-tab {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+/* Weather information footer */
+#footer {
+    width: 90%;
+    max-width: 500px;
+    background-color: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(25px);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 20px;
+    position: absolute;
+    bottom: 40px;
+    padding: 30px;
+    text-align: center;
+}
+
+#data {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+/* Temperature display styling */
+#temperature {
+    font-size: 4.5rem;
+    font-weight: 300;
+    margin: 0;
+    text-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+}
+
+#temperature sup {
+    font-size: 2.5rem;
+}
+
+/* City name display styling */
+#city-name {
+    font-size: 2rem;
+    font-weight: 400;
+    margin: 0;
+    opacity: 0.9;
+    text-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Responsive design for tablets */
+@media (max-width: 768px) {
+    #search {
+        height: 55px;
+        font-size: 16px;
+    }
+
+    #temperature {
+        font-size: 3.5rem;
+    }
+
+    #city-name {
+        font-size: 1.5rem;
+    }
+
+    #footer {
+        bottom: 20px;
+        width: 95%;
+        padding: 25px;
+    }
+}
+
+/* Responsive design for mobile phones */
+@media (max-width: 480px) {
+    .search-wrapper {
+        width: 90%;
+    }
+
+    #temperature {
+        font-size: 3rem;
+    }
+
+    #city-name {
+        font-size: 1.3rem;
+    }
+}
