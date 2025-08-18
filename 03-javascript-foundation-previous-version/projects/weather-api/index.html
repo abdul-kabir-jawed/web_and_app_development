@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Live Weather</title>
+    <link href="style.css" rel="stylesheet">
+    <!-- Font Awesome for search icon -->
+    <script src="https://kit.fontawesome.com/f85fc2f485.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- Main weather app container -->
+    <div id="container">
+        <!-- Search section -->
+        <section id="section">
+            <div id="search_bar">
+                <div class="search-wrapper">
+                    <input type="text" placeholder="Enter the city name" id="search">
+                    <!-- Search button -->
+                    <div id="icon" onclick="checkCity()">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Weather data display area -->
+        <div id="data-tab"></div>
+    </div>
+    
+    <script src="app.js"></script>
+</body>
+</html>
