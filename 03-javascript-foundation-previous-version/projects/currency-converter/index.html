@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta Information -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Convertify | Currency Converter</title>
+    
+    <!-- External Resources -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="/assests/favicon/icons8-euro-money-16.png">
+</head>
+<body>
+    <div class="container">
+        <!-- Header Section -->
+        <header class="header">
+            <div class="header-brand">
+                <h1>CONVERTIFY</h1>
+            </div>
+        </header>
+
+        <!-- Main Content Area -->
+        <main class="main-content">
+            <!-- Hero Section -->
+            <div class="hero-section">
+                <h2>CURRENCY CONVERTER</h2>
+                <p>Real-time exchange rates at your fingertips</p>
+            </div>
+
+            <!-- Converter Card -->
+            <div class="converter-card">
+                <!-- Error Message Display -->
+                <div class="error-message"></div>
+                
+                <!-- Input Section -->
+                <div class="input-section">
+                    <!-- Amount Input -->
+                    <div class="form-group">
+                        <label class="form-label" for="enter_amount">Enter Amount</label>
+                        <input type="number" class="amount-input" placeholder="0.00" min="0" step="1" id="enter_amount">
+                    </div>
+
+                    <!-- Currency Selection -->
+                    <div class="currency-section">
+                        <!-- From Currency -->
+                        <div class="currency-group">
+                            <label class="form-label" for="from_currency">From</label>
+                            <select class="currency-dropdown" id="from_currency">
+                                <option value="">Select Currency</option>
+                            </select>
+                        </div>
+
+                        <!-- To Currency -->
+                        <div class="currency-group">
+                            <label class="form-label" for="to_currency">To</label>
+                            <select class="currency-dropdown" id="to_currency">
+                                <option value="">Select Currency</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Result Display -->
+                <div class="result-section" id="result">
+                    <div class="result-display">
+                        <div id="result-amount">Converted Value: </div>
+                        <div id="result-rate">1 PKR = 0.0036 USD</div>
+                    </div>
+                </div>
+
+                <!-- Convert Button -->
+                <button class="convert-button" onclick="convertCurrency()">Get Exchange Rate</button>
+            </div>
+        </main>
+
+        <!-- Footer Section -->
+        <footer class="footer">
+            <p>Exchange rates updated every minute</p>
+        </footer>
+    </div>
+    
+    <!-- JavaScript -->
+    <script src="/app.js"></script>
+</body>
+</html>
