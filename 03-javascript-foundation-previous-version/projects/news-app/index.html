@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VelocityNews</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link href="/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <!-- Loading Screen -->
+        <div id="loader">
+            <div class="content">
+                <div class="brand">VELOCITY</div>
+                <div class="subtitle">News Platform</div>
+            </div>
+            <div class="loading-indicator">
+                <div class="dot"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+            </div>
+        </div>
+
+        <!-- Header -->
+        <header>
+            <div class="header-container">
+                <div class="header-content">
+                    <a href="#" class="logo">VELOCITY<span class="accent">NEWS</span></a>
+                </div>
+            </div>
+        </header>
+
+        <!-- Main Content -->
+        <main>
+            <div class="main-container">
+                <!-- Single News Story -->
+                <div class="news-story" id="newsStory">
+                    <!-- Loading Overlay -->
+                    <div class="loading-overlay" id="loadingOverlay">
+                        <div class="loading-spinner"></div>
+                    </div>
+
+                    <!-- Image Section - Top -->
+                    <div class="news-image-section">
+                        <img id="newsimage"
+                            src="https://images.unsplash.com/photo-1504711434969-e33886168f5c?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80"
+                            alt="Breaking News"
+                            onerror=`this.src='https://images.unsplash.com/photo-1586339949916-3e9457bef6d3?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80'`>
+                    </div>
+
+                    <!-- Content Section - Center -->
+                    <div class="news-content-section">
+                        <h1 id="newstitle" class="news-title">Revolutionary AI Technology Transforms Global
+                            Communication</h1>
+                        <p id="newsdescription" class="news-description">
+                            In a groundbreaking development that promises to reshape how we communicate across language
+                            barriers,
+                            researchers have unveiled a new artificial intelligence system capable of real-time
+                            translation with
+                            unprecedented accuracy. This breakthrough technology leverages advanced neural networks and
+                            machine
+                            learning algorithms to deliver seamless communication experiences.
+                        </p>
+                    </div>
+
+                    <!-- Bottom Section - Simple Text Only -->
+                    <div class="news-bottom-section">
+                        <div class="news-meta-container">
+                            <span id="newsauthor" class="author-name">Sarah Kim</span>
+                            <div class="author-publish-info">
+                                <a id="newslink" href="#" target="_blank">
+                                    <div class="read-full-text">Read Full Article</div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Next Button -->
+                <div class="next-button-container">
+                    <button class="next-button" id="nextButton" onclick="changeArticle()">Next Story</button>
+                </div>
+            </div>
+        </main>
+
+        <!-- Footer -->
+        <footer>
+            <div class="footer-container">
+                <div class="footer-content">
+                    <p class="footer-desc">
+                        Your premier destination for breaking news, in-depth analysis, and real-time updates.
+                    </p>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="/main.js"></script>
+</body>
+
+</html>
